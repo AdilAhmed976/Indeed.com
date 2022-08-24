@@ -1,0 +1,132 @@
+{
+  "jobdata": [
+    {
+      "id": 1,
+      "title" : "React developer",
+      "company_name": "Swarnim Infosoft Pvt. Ltd",
+      "location":"Saharanpur, Uttar Pradesh",
+      "salary":"₹27,000 - ₹32,000",
+      "job-type":["Part-time", "Fresher", "Remote"],
+      " Job Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
+      "Schedule" : "Day shift",
+      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
+      "Job activity" : "Posted today"
+    },
+    {
+      "id": 2,
+      "title" : "React developer",
+      "company_name": "MMC INFOTECH PVT LTD",
+      "location":"Madhya Pradesh",
+      "salary":"₹28,000 - ₹32,000",
+      "job-type":["Part-time", "Fresher", "Remote"],
+      " Job Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
+      "Schedule" : "Day shift",
+      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
+      "Job activity" : "Posted today"
+    },
+    {
+      "id": 3,
+      "title" : "PART TlME Computer Typist and Fresher Data Entry Operator s",
+      "company_name": "Swarnim Infosoft Pvt. Ltd",
+      "location":"Saharanpur, Uttar Pradesh",
+      "salary":"₹27,000 - ₹32,000",
+      "job-type":["Part-time", "Fresher", "Remote"],
+      " Job Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
+      "Schedule" : "Day shift",
+      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
+      "Job activity" : "Posted today"
+    },
+    {
+      "id": 4,
+      "title" : "PART TlME Computer Typist and Fresher Data Entry Operator s",
+      "company_name": "Swarnim Infosoft Pvt. Ltd",
+      "location":"Saharanpur, Uttar Pradesh",
+      "salary":"₹27,000 - ₹32,000",
+      "job-type":["Part-time", "Fresher", "Remote"],
+      " Job Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
+      "Schedule" : "Day shift",
+      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
+      "Job activity" : "Posted today"
+    },
+    {
+      "id": 5,
+      "title" : "PART TlME Computer Typist and Fresher Data Entry Operator s",
+      "company_name": "Swarnim Infosoft Pvt. Ltd",
+      "location":"Saharanpur, Uttar Pradesh",
+      "salary":"₹27,000 - ₹32,000",
+      "job-type":["Part-time", "Fresher", "Remote"],
+      " Job Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
+      "Schedule" : "Day shift",
+      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
+      "Job activity" : "Posted today"
+    },
+    {
+      "id": 6,
+      "title" : "PART TlME Computer Typist and Fresher Data Entry Operator s",
+      "company_name": "Swarnim Infosoft Pvt. Ltd",
+      "location":"Saharanpur, Uttar Pradesh",
+      "salary":"₹27,000 - ₹32,000",
+      "job-type":["Part-time", "Fresher", "Remote"],
+      " Job Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
+      "Schedule" : "Day shift",
+      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
+      "Job activity" : "Posted today"
+    },
+    {
+      "id": 7,
+      "title" : "PART TlME Computer Typist and Fresher Data Entry Operator s",
+      "company_name": "Swarnim Infosoft Pvt. Ltd",
+      "location":"Saharanpur, Uttar Pradesh",
+      "salary":"₹27,000 - ₹32,000",
+      "job-type":["Part-time", "Fresher", "Remote"],
+      " Job Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
+      "Schedule" : "Day shift",
+      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
+      "Job activity" : "Posted today"
+    },
+    {
+      "id": 8,
+      "title" : "PART TlME Computer Typist and Fresher Data Entry Operator s",
+      "company_name": "Swarnim Infosoft Pvt. Ltd",
+      "location":"Saharanpur, Uttar Pradesh",
+      "salary":"₹27,000 - ₹32,000",
+      "job-type":["Part-time", "Fresher", "Remote"],
+      " Job Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
+      "Schedule" : "Day shift",
+      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
+      "Job activity" : "Posted today"
+    },
+    {
+      "id": 9,
+      "title" : "PART TlME Computer Typist and Fresher Data Entry Operator s",
+      "company_name": "Swarnim Infosoft Pvt. Ltd",
+      "location":"Saharanpur, Uttar Pradesh",
+      "salary":"₹27,000 - ₹32,000",
+      "job-type":["Part-time", "Fresher", "Remote"],
+      " Job Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
+      "Schedule" : "Day shift",
+      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
+      "Job activity" : "Posted today"
+    },
+    {
+      "id": 10,
+      "title" : "PART TlME Computer Typist and Fresher Data Entry Operator s",
+      "company_name": "Swarnim Infosoft Pvt. Ltd",
+      "location":"Saharanpur, Uttar Pradesh",
+      "salary":"₹27,000 - ₹32,000",
+      "job-type":["Part-time", "Fresher", "Remote"],
+      " Job Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
+      "Schedule" : "Day shift",
+      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
+      "Job activity" : "Posted today"
+    }
+  ],
+  "Profile": [
+    {
+      "id": 1,
+      "name": "Job 1",
+      "image": "",
+      "category": ""
+    }
+  ]
+}

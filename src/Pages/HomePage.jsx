@@ -1,7 +1,13 @@
 import React from 'react'
+import Box from "@mui/material/Box";
+import { FindJobsSearchbar } from '../Components/FindJobsSearchbar';
+import  JobsFeedsPage from '../Components/JobsFeedsPage';
 
 export const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <Box>
+      <FindJobsSearchbar/>
+      <JobsFeedsPage/>
+    </Box>
   )
 }

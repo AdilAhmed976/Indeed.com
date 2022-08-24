@@ -1,0 +1,14 @@
+/* .hover_effect {
+
+  
+  } */
+  .hover_effect>div {
+    /* border: 1px solid black !important; */
+    /* margin: 10px 0px !important; */
+  
+  }
+  
+  .hover_effect>div:hover {
+    background-color: lightcyan !important;
+    /* margin: 10px !important; */
+  }
