@@ -1,0 +1,111 @@
+.container {
+  height: 326px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8f3fc;
+  background-image: url(https://d3hbwax96mbv6t.cloudfront.net/title-webapp/_next/static/images/salaries-8d20dc14bdeae8889387e0fb40e0d546.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.heading-wrapper {
+  width: 1280px;
+  height: 249px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading-wrapper h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin: 0%;
+}
+
+.heading-wrapper span {
+  font-size: 14px;
+  color: #2d2d2d;
+  line-height: 21px;
+  display: block;
+  margin: 7px 0px 16px 0px;
+}
+
+.search-wrapper {
+  height: 140px;
+  width: 794px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0%;
+  border-top: 10px solid #9bb1f0;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 98px;
+  width: 746px;
+}
+
+.input-wrapper label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-bottom: 8px;
+}
+
+.input-wrapper .what {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper .where {
+  display: flex;
+  flex-direction: column;
+}
+
+.what input {
+  height: 42px;
+  width: 282px;
+  border-radius: 8px;
+  border: 1px solid #2d2d2d;
+}
+
+.where input {
+  height: 42px;
+  width: 282px;
+  border-radius: 8px;
+  border: 1px solid #2d2d2d;
+}
+
+.what input::placeholder {
+  font-size: 16px;
+}
+
+.where input::placeholder {
+  font-size: 16px;
+}
+.button button {
+  height: 44px;
+  width: 146px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: #2557a7;
+  border: none;
+  border-radius: 8px;
+  margin-top: 24px;
+}
+
+.button button:hover {
+  cursor: pointer;
+  background-color: #164081;
+}
