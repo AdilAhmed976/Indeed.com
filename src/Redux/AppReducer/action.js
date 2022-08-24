@@ -18,10 +18,10 @@ export const getJobDataFailure = () => {
     }
 }
 
-export const gettingTheJobData = () => (dispatch)=> {
+export const gettingTheJobData = (payload) => (dispatch)=> {
 
     dispatch(getJobDataRequest())
-    axios.get('http://localhost:8080/jobdata')
-   
-
+    axios.get(`http://localhost:8080/jobdata/?q=${payload}`)
+    .then((r) => dispatch(getJobDataSuccess(r.data)))
+    .then((e) => dispatch(getJobDataFailure(e)))
 }
