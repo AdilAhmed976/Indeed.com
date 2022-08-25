@@ -47,7 +47,6 @@ const Login = () => {
   };
   const handleFBSignIn = () => {
     dispatch(fbSignInInitiate())
-
   };
 
   const handleSubmit = (e) => {
@@ -57,7 +56,6 @@ const Login = () => {
     }
     dispatch(loginInitiate(email, password))
     setState({ email: "", password: "" })
-
   };
 
   const handleChange = (e) => {

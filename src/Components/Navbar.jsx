@@ -16,6 +16,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import { Link } from "@mui/material";
+import { NavLink } from 'react-router-dom';
 
 
 const Search = styled('div')(({ theme }) => ({
@@ -181,6 +182,32 @@ export default function PrimarySearchAppBar() {
             </Box>
             <Box >
               <img height={50} src='https://d3fw5vlhllyvee.cloudfront.net/dist/header/ukraine_support.7ad2b5d444bc427dbc5d.png'/>
+            </Box>
+            
+            <Box sx={{display:'flex',gap:'20px',marginLeft:'30px'}} >
+              <NavLink style={{textDecoration:'none'}} to='/' >
+                <Box sx={{color:'black'}}>
+                  <Typography variant="body3" component="body3" >
+                    Find job
+                  </Typography> 
+                </Box>
+              </NavLink>
+              
+              <NavLink style={{textDecoration:'none'}} to='' >
+                <Box sx={{color:'black'}}>
+                  <Typography variant="body3" component="body3" >
+                    Company reviews
+                  </Typography> 
+                </Box>
+              </NavLink>
+
+              <NavLink style={{textDecoration:'none'}} to='' >
+                <Box sx={{color:'black'}}>
+                  <Typography variant="body3" component="body3" >
+                    Salary guide
+                  </Typography> 
+                </Box>
+              </NavLink>
             </Box>
           {/* </Box> */}
 
