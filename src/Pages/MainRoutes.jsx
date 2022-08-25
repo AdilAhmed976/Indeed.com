@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import {Login} from "./Login";
 import { HomePage } from "./HomePage";
 import PostJob from "./PostJob";
+import CompanyReview from "./CompanyReview"
 
 const MainRoutes = () => {
   return (
@@ -11,6 +12,7 @@ const MainRoutes = () => {
       <Route path="/login" element={<Login />} />
       <Route path="/job/:id" element={''} />
       <Route path="/postjob" element={<PostJob />}/>
+      <Route path="/companyreview" element={<CompanyReview/>}/>
       <Route path="*" element={<div>Page Not Found</div>} />
     </Routes>
   );
