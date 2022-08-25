@@ -1,18 +1,20 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { logoutInitiate } from "../redux/actions";
-// import useNavigate from 'react-router-dom'
+import { logoutInitiate } from "../../../Redux/AuthReducer/action";
+import {useNavigate} from 'react-router-dom'
 
-const Home = () => {
+const Logout = () => {
   const { currentUser } = useSelector((state) => state.user);
   const dispatch = useDispatch();
-  // const navigate = useNavigate()
+  const navigate = useNavigate()
 
   const handleAuth = () => {
     if (currentUser) {
       dispatch(logoutInitiate());
     }
-    // navigate('/')
+    // localStorage.setItem("isAuth111", false)
+    navigate('/')
+   
   };
   return (
     <div>
@@ -25,4 +27,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Logout;

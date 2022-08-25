@@ -4,8 +4,10 @@ const initialState = {
   loading: false,
   currentUser: null,
   error: null,
+  isAuth:false
+  
 };
-
+localStorage.setItem("loginData", JSON.stringify(initialState.isAuth))
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case types.REGISTER_START:
@@ -24,6 +26,7 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         loading: false,
+        isAuth:true,
         currentUser: action.payload,
       };
     case types.LOGOUT_SUCCESS:
@@ -34,6 +37,7 @@ const reducer = (state = initialState, action) => {
     case types.SET_USER:
       return {
         ...state,
+        isAuth:true,
         currentUser: action.payload,
       };
     case types.REGISTER_FAIL:

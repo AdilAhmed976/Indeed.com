@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useHistory, Link } from "react-router-dom";
-import { registerInitiate } from "../redux/actions";
-// import "./Register.css";
+import { useNavigate, Link } from "react-router-dom";
+import { registerInitiate } from "../../../Redux/AuthReducer/action";
+import "./Register.css";
 
 const Register = () => {
   const [state, setState] = useState({
@@ -14,13 +14,13 @@ const Register = () => {
 
   const { currentUser } = useSelector((state) => state.user);
 
-  const history = useHistory();
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (currentUser) {
-      history.push("/");
+      navigate("/");
     }
-  }, [currentUser, history]);
+  }, [currentUser, navigate]);
 
   const dispatch = useDispatch();
 
