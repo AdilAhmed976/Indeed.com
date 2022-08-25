@@ -1,0 +1,223 @@
+
+#logreg-forms {
+  width: 470px;
+  margin: 6vh auto;
+  padding: 30px 30px;
+  background-color: white;
+  border: 1px solid rgb(219, 216, 216);
+  border-radius: 10px;
+  margin-bottom: 100px;
+  margin-top: 26px;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); */
+  /* transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); */
+}
+#logreg-forms form {
+  width: 100%;
+  max-width: 410px;
+  /* padding: 15px; */
+  margin: auto;
+}
+#logreg-forms div{
+ text-align: left;
+ /* margin-top: 40px !important; */
+ /* margin-left: 15px; */
+ /* margin-right: 15px; */
+ /* padding-top: 17px; */
+}
+#logreg-forms>div>h4{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.byCreating{
+  font-size: 0.76rem;
+  color: rgb(109, 107, 107);
+}
+
+#logreg-forms .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+#logreg-forms .form-control:focus {
+  z-index: 2;
+}
+#logreg-forms .form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#logreg-forms .form-signin input[type="password"] {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#logreg-forms .social-login {
+  /* display: flex; */
+  
+  width: 690px;
+  margin: 0 auto;
+  margin-bottom: 14px;
+
+  
+}
+#logreg-forms .social-btn {
+  font-weight: 650;
+  color: black;
+  width: 410px;
+  height: 46px;
+  font-size: 1rem;
+  background: white !important;
+  border: 1px solid rgb(206, 202, 202);
+  margin-bottom: 15px;
+}
+.socialButtonImg{
+  width: 20px;
+  margin-left: -100px;
+  margin-right: 80px;
+}
+#logreg-forms .social-btn:hover{
+  border: 1px solid blue;
+  background-color: rgb(224, 224, 240) !important;
+}
+
+#logreg-forms a {
+  display: block;
+  padding-top: 10px;
+  color: lightseagreen;
+}
+
+#logreg-form .lines {
+  width: 200px;
+  border: 1px solid red;
+}
+
+#logreg-forms button[type="submit"] {
+  margin-top: 10px;
+}
+
+#logreg-forms .facebook-btn {
+  background-color: #3c589c;
+}
+
+#logreg-forms .google-btn {
+  background-color: #df4b3b;
+  margin-right: 5px;
+}
+.orTagDiv{
+  display: flex;
+  text-align: center;
+  margin-top: -10px;
+}
+.orTagDiv>hr{
+  width: 193px;
+  margin-top: 14px;
+}
+#logreg-forms .form-signup .social-btn {
+  width: 210px;
+}
+
+#logreg-forms .form-signup input {
+  margin-bottom: 2px;
+}
+
+.form-signup .social-login {
+  width: 210px !important;
+  margin: 0 auto;
+}
+#logreg-forms .btn-block{
+  width: 200px;
+  width: 407px;
+  height: 44px;
+  border-radius: 7px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: -10px;
+  background-color: #e08b37;
+}
+#logreg-forms .btn-block:hover{
+  background-color: #ca6d10 ;
+} 
+#btn-signup{
+  width: 407px;
+  height: 44px;
+  border-radius: 7px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: -10px;
+  background-color: #4067c8;
+}
+#btn-signup:hover{
+  background-color: #0d2a74;
+}
+/* Mobile */
+
+@media screen and (max-width: 500px) {
+  #logreg-forms {
+    width: 300px;
+  }
+
+  #logreg-forms .social-login {
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  #logreg-forms .social-btn {
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    width: 200px;
+    height: 56px;
+  }
+  #logreg-forms .social-btn:nth-child(1) {
+    margin-bottom: 5px;
+  }
+  #logreg-forms .social-btn span {
+    display: none;
+  }
+  #logreg-forms .facebook-btn:after {
+    content: "Facebook";
+  }
+
+  #logreg-forms .google-btn:after {
+    content: "Google+";
+  }
+  #logreg-forms .social-btn {
+    font-weight: 650;
+    color: black;
+    width: 237px;
+    height: 46px;
+    font-size: 1rem;
+    background: white !important;
+    border: 1px solid rgb(206, 202, 202);
+    margin-bottom: 15px;
+    text-align: center;
+    margin-left: -18px;
+  }
+  .socialButtonImg{
+    width: 20px;
+    margin-left: -10px;
+    margin-right: 10px;
+  }
+  #logreg-forms .btn-block{
+    width: 200px;
+    width: 237px;
+    height: 44px;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: -10px;
+    background-color: #a33f33;
+  }
+  
+  #btn-signup{
+    width: 237px;
+    height: 44px;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: -10px;
+    background-color: #4067c8;
+  }
+}

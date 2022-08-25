@@ -18,7 +18,7 @@ export const FindJobsSearchbar = () => {
     const [location,setLoaction] = useState("")
     const optionsOne = ["React developer", "Software Developer", "Engineer"]
     const optionsTwo = ["Madhya Pardesh", "Uttar Pradesh", "Engineer"]
-    console.log(title)
+    console.log("I am Title:-->", title)
 
     const handleFindJob = (payload) => {
         dispatch(gettingTheJobData(payload))
