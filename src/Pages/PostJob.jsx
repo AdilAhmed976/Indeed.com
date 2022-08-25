@@ -1,11 +1,13 @@
 import React from 'react'
 import PostFooter from '../Components/PostFooter'
-import PostNavbar from '../Components/PostNavbar'
+import Middle from '../Components/PostMiddle'
+// import PostNavbar from '../Components/PostNavbar'
 
 const PostJob = () => {
   return (
     <>
-        <PostNavbar />
+        {/* <PostNavbar /> */}
+        <Middle />
         <PostFooter />
     </>
   )
