@@ -15,7 +15,7 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
-import { Link } from "@mui/material";
+import { Link } from 'react-router-dom';
 
 
 const Search = styled('div')(({ theme }) => ({
@@ -216,7 +216,7 @@ export default function PrimarySearchAppBar() {
           {/* <Box sx={{ flexGrow: -1 }} /> */}
 
           <Box sx={{marginLeft:'30px'}} >
-           <Link sx={{color:'black'}} href="#">Employers / Post Job</Link>
+           <Link to="/postjob">Employers / Post Job</Link>
            </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
             <IconButton

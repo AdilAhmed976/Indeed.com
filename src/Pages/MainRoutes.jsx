@@ -15,7 +15,7 @@ const MainRoutes = () => {
       <Route path="/logout" element={<Logout/>} />
       <Route path="/register" element={<Register />} />
       <Route path="/job/:id" element={''} />
-      <Route path="/postjob" element={<ReqAuth> <PostJob /></ReqAuth>}/>
+      <Route path="/postjob" element={ <PostJob />}/>
       <Route path="*" element={<div>Page Not Found</div>} />
       
     </Routes>
