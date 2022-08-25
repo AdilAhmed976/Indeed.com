@@ -14,7 +14,8 @@
   }
 
   .block{
-    display:none
+    display:none;
+
   }
 
   .main::-webkit-scrollbar {

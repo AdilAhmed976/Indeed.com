@@ -24,7 +24,7 @@ export const JobsData = () => {
         })}
       </Box>
 
-      <Box sx={{border:1, width:'50%',  height:'96vh', position:'sticky',top:'6px', borderRadius:"10px" }} >
+      <Box sx={{border:1, width:'50%',  height:'96vh', position:'sticky',top:'16px', borderRadius:"10px" }} >
           <JobsSingleCard check={check} />
       </Box>
 

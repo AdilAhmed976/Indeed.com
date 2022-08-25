@@ -10,7 +10,7 @@ export const JobCard = ({item,getid}) => {
 
 
   return (
-    <Box sx={{ border:1, maxHeight:'304px', overflow:'hidden',padding:'8px',borderRadius:'10px'}} onClick={()=>getid(item.id)} >
+    <Box sx={{ border:'0.5px solid gray', maxHeight:'304px', overflow:'hidden',padding:'8px',borderRadius:'10px'}} onClick={()=>getid(item.id)} >
 
       <Box sx={{display:'flex', flexDirection:'row', justifyContent:'space-between' }} >
           <Box  >

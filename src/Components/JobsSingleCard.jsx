@@ -26,7 +26,7 @@ export const JobsSingleCard = ({check}) => {
     }, [check])
 
   return (
-    <Box sx={{padding:'8px'}} className={`${check? "" : 'block'}`} >
+    <Box sx={{padding:'8px'}} className={`${check? '' : 'block'}`} >
         <Box sx={{boxShadow:'gba(0, 0, 0, 0.15) 0px 3px 3px 0px',borderBottom:1}} >
             <Box sx={{marginTop:'16px'}} >
                 <Typography variant="h4" component="h4" >
