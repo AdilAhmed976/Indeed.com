@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import Autocomplete from "@mui/material/Autocomplete";
 import Button from "@mui/material/Button";
 import TextField  from '@mui/material/TextField';
-import InputAdornment  from '@mui/material/InputAdornment';
+import Typography  from '@mui/material/Typography';
 import { useDispatch, useSelector } from 'react-redux';
 import { gettingTheJobData } from '../Redux/AppReducer/action';
 
@@ -16,17 +16,17 @@ export const FindJobsSearchbar = () => {
 
     const [title,setTitle] = useState("")
     const [location,setLoaction] = useState("")
-    const optionsOne = ["React developer", "Software Developer", "Engineer"]
+    const optionsOne = ["React developer", "Software Developer", "Engineer","ReactJS Developer"]
     const optionsTwo = ["Madhya Pardesh", "Uttar Pradesh", "Engineer"]
-    console.log(title)
+    
 
     const handleFindJob = (payload) => {
         dispatch(gettingTheJobData(payload))
     }
-    console.log(jobdata)
+
   return (
    <Box sx={{ padding:'40px' , display:'flex', flexDirection:'column',  justifyContent:'center' , alignItems:'center'}}   >
-    <Box sx={{ width:"70%", padding:'60px' , display:'flex', justifyContent:'space-between' , alignItems:'center'}} >
+    <Box sx={{ width:"70%", padding:'30px' , boxSizing:'border-box' ,  gap:'10px', display:'flex', justifyContent:'space-between' , alignItems:'center'}} >
         <Box > 
             <Autocomplete
                 value={title}
@@ -59,7 +59,7 @@ export const FindJobsSearchbar = () => {
             
         </Box>
             <Box id="outlined-start-adornment" >
-                <Button 
+                <Button sx={{width:'140px'}}
                     variant="contained" 
                     onClick={ ()=>  handleFindJob(title)}
                 >Find jobs</Button>
@@ -67,8 +67,13 @@ export const FindJobsSearchbar = () => {
         </Box>
 
         <Box>
-            <p>Post your resume – It only takes a few seconds
-Employers: Post a job – Your next hire is here</p>
+        <Typography variant="body1" component="h1">
+            Post your resume – It only takes a few seconds
+        </Typography>
+        <Typography variant="body1" component="h1">
+            Employers: Post a job – Your next hire is here
+        </Typography>
+        
         </Box>
    </Box>
   )

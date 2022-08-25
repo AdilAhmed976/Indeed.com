@@ -1,0 +1,13 @@
+.toppaying-heading-wrapper {
+  height: 115px;
+  width: 1280px;
+  border: 1px solid red;
+  margin: auto;
+}
+
+.card-wrapper {
+  width: 1280px;
+  min-height: 400px;
+  border: 1px solid green;
+  margin: auto;
+}
