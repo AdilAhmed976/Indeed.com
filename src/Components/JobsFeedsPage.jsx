@@ -51,8 +51,8 @@ export default function JobsfeedsPage() {
     <Box  >
       <Box sx={{ borderBottom: 1, borderColor: 'divider',display:'flex', margin:'auto' , justifyContent:'center'}}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="Item One" {...a11yProps(0)} />
-          <Tab label="Item Two" {...a11yProps(1)} />
+          <Tab label="Job feed" {...a11yProps(0)} />
+          <Tab label="Recent searches" {...a11yProps(1)} />
           {/* <Tab label="Item Three" {...a11yProps(2)} /> */}
         </Tabs>
       </Box>
@@ -60,7 +60,7 @@ export default function JobsfeedsPage() {
         {<JobsData/>}
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
+        Recent Searches
       </TabPanel>
     </Box>
   );
