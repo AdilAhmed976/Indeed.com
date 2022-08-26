@@ -12,3 +12,12 @@
     background-color: lightcyan !important;
     /* margin: 10px !important; */
   }
+
+  .block{
+    display:none;
+
+  }
+
+  .main::-webkit-scrollbar {
+    display: none;
+  }

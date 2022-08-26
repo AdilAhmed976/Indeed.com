@@ -15,7 +15,10 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
-import { Link } from "@mui/material";
+
+import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
 
 
 const Search = styled('div')(({ theme }) => ({
@@ -159,7 +162,7 @@ export default function PrimarySearchAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
-        <Toolbar sx={{backgroundColor:'white'}} >
+        <Toolbar sx={{backgroundColor:'white',borderBottom: 1,borderColor:"divider"}} >
           {/* <Box> */}
             <Box>
                <svg
@@ -181,6 +184,32 @@ export default function PrimarySearchAppBar() {
             </Box>
             <Box >
               <img height={50} src='https://d3fw5vlhllyvee.cloudfront.net/dist/header/ukraine_support.7ad2b5d444bc427dbc5d.png'/>
+            </Box>
+            
+            <Box sx={{display:'flex',gap:'20px',marginLeft:'30px'}} >
+              <NavLink style={{textDecoration:'none'}} to='/' >
+                <Box sx={{color:'black'}}>
+                  <Typography variant="body3" component="body3" >
+                    Find job
+                  </Typography> 
+                </Box>
+              </NavLink>
+              
+              <NavLink style={{textDecoration:'none'}} to='' >
+                <Box sx={{color:'black'}}>
+                  <Typography variant="body3" component="body3" >
+                    Company reviews
+                  </Typography> 
+                </Box>
+              </NavLink>
+
+              <NavLink style={{textDecoration:'none'}} to='' >
+                <Box sx={{color:'black'}}>
+                  <Typography variant="body3" component="body3" >
+                    Salary guide
+                  </Typography> 
+                </Box>
+              </NavLink>
             </Box>
           {/* </Box> */}
 
@@ -216,7 +245,7 @@ export default function PrimarySearchAppBar() {
           {/* <Box sx={{ flexGrow: -1 }} /> */}
 
           <Box sx={{marginLeft:'30px'}} >
-           <Link sx={{color:'black'}} href="#">Employers / Post Job</Link>
+           <Link to="/postjob">Employers / Post Job</Link>
            </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
             <IconButton
