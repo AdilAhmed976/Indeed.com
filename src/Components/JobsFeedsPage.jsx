@@ -48,12 +48,11 @@ export default function JobsfeedsPage() {
   };
 
   return (
-    <Box  >
-      <Box sx={{ borderBottom: 1, borderColor: 'divider',display:'flex', margin:'auto' , justifyContent:'center'}}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="Job feed" {...a11yProps(0)} />
-          <Tab label="Recent searches" {...a11yProps(1)} />
-          {/* <Tab label="Item Three" {...a11yProps(2)} /> */}
+    <Box sx={{backgroundColor:'rgb(250,249,248)'}}  >
+      <Box sx={{ backgroundColor:'white', borderBottom: 0,borderColor:"divider", height:'90px',  display:'flex', margin:'auto' , justifyContent:'center'}}>
+        <Tabs  value={value} onChange={handleChange} aria-label="basic tabs example">
+          <Tab sx={{fontSize:'24px',height:'90px',textTransform:"capitalize",color:'black'}} label="Job feed" {...a11yProps(0)} />
+          <Tab sx={{fontSize:'24px',height:'90px',textTransform:"capitalize",color:'black'}} label="Recent searches" {...a11yProps(1)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>

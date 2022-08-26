@@ -2,19 +2,28 @@ import React from 'react'
 import Box from '@mui/material/Box';
 import Typography  from '@mui/material/Typography';
 import JobCardMenu from './JobCardMenu';
-import { Bolt, Payments, Send } from '@mui/icons-material';
+import { Bolt, BusinessCenter, Payments, Send } from '@mui/icons-material';
 
 
 export const JobCard = ({item,getid}) => {
   
 
+const truncetText = (text,maxWords) => {
+   let textArray = text.split(" ")
+
+   if (textArray.length>maxWords) {
+        return `${textArray.splice(0,maxWords).join(" ")}...` 
+   }
+   return text
+}
+
 
   return (
-    <Box sx={{ border:'0.5px solid gray', maxHeight:'304px', overflow:'hidden',padding:'8px',borderRadius:'10px'}} onClick={()=>getid(item.id)} >
+    <Box sx={{ border:'0.5px solid gray', borderColor:'divider', backgroundColor:'white', marginBottom:"12px", maxHeight:'304px', overflow:'hidden', textOverflow:'elipsis', padding:'16px',borderRadius:'10px'}} onClick={()=>getid(item.id)} >
 
       <Box sx={{display:'flex', flexDirection:'row', justifyContent:'space-between' }} >
           <Box  >
-            <Typography variant="h5" component="h5" >
+            <Typography variant="h5" component="h5" fontSize={'22px'} fontWeight='bold' fontFamily={'Noto+Sans'} >
               {item.title}
             </Typography>
           </Box>
@@ -39,27 +48,28 @@ export const JobCard = ({item,getid}) => {
       <Box sx={{display:'flex', flexDirection:'row', justifyContent:'flex-start',  }} >
 
           <Box sx={{
-              border:1,
+              borderRadius:'4px',
               width:'fit-content', 
-              padding:'2px', 
-              margin:'2px',
-              backgroundColor:'lightgray'
+              padding:'4px', 
+              margin:'4px',
+              backgroundColor:'rgb(243,242,241)'
               }}
           >
-              <Payments/>
+              <Payments color={'rgb(89,89,89)'}/>
               <Typography variant="body3" component="body3" >
               {item.salary} a month
               </Typography>
           </Box>
 
           <Box sx={{
-              border:1,
+              borderRadius:'4px',
               width:'fit-content', 
-              padding:'2px', 
-              margin:'2px',
-              backgroundColor:'lightgray'
+              padding:'4px', 
+              margin:'4px',
+              backgroundColor:'rgb(243,242,241)'
               }}
           >
+            <BusinessCenter color={'rgb(89,89,89)'} />
               <Typography variant="body3" component="body3" >
               {item.job_type[0]}
               </Typography> 
@@ -77,15 +87,15 @@ export const JobCard = ({item,getid}) => {
 
       <Box sx={{display:'flex', flexDirection:'row', justifyContent:'flex-start',gap:'20px' }} >
           <Box  >
-            <Send color='blue' fontSize='20px' backgroundColor='red' />
-            <Typography variant="h8" component="h8" >
+            <Send fontSize='20px' color="primary" />
+            <Typography variant="h7" component="h7" marginLeft='6px' >
               Apply with Indeed resume
             </Typography>
           </Box>
 
           <Box >
-            <Bolt/>
-          <Typography variant="h8" component="h8" >
+            <Bolt color="primary"/>
+          <Typography variant="h8" component="h8" marginLeft='6px' >
               Responsive employer
             </Typography>
           </Box>
@@ -101,7 +111,7 @@ export const JobCard = ({item,getid}) => {
           
           <Box>
             <Typography variant="h8" component="h8" >
-              {item.Job_Description[1]}
+              { truncetText( item.Job_Description[1],30 )   }
             </Typography>
           </Box>
 
