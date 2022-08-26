@@ -3,7 +3,7 @@ import "./SalaryGuideTop.css";
 
 function SalaryGuideTop(props) {
   return (
-    <div className="container">
+    <div className="salary-guide-container">
       <div className="image-wrapper"></div>
       <div className="heading-wrapper">
         <div className="text-wrapper">

@@ -2,363 +2,653 @@
   "jobdata": [
     {
       "id": 1,
-      "title" : "React developer",
+      "title": "React developer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Eightfold was founded with a vision to solve for employment in our society. For decades, the connection between individuals and opportunities has been based on who the individuals are and the strength of their network, vs. their potential. Eightfold leverages artificial intelligence to transform how to think about skills and capabilities for individuals as well as how jobs and career decisions are made. Eightfold offers the industry’s first AI-powered Talent Intelligence Platform to transform how organizations plan, hire, develop and retain a diverse workforce, enabling individuals to transform their careers.To date, Eightfold AI has received more than $410 million in funding and a valuation of over $2B from leading investors to further our mission of finding the right career for everyone in the world. If you are passionate about solving one of the most fundamental challenges of our society - employment, working on hard business problems, and being part of an amazing growth story - Eightfold is the place to be! You may want to refer to the media coverage on TechCrunch and Reuters. Eightfold.ai is led by Ashutosh Garg, a PhD in Machine Learning/IIT Delhi alumni who managed Search and Personalization at Google, and Varun Kacholia- IIT Bombay alumni, who led the News Feed Ranking team at Facebook and developed YouTube Search at Google."],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Eightfold was founded with a vision to solve for employment in our society. For decades, the connection between individuals and opportunities has been based on who the individuals are and the strength of their network, vs. their potential. Eightfold leverages artificial intelligence to transform how to think about skills and capabilities for individuals as well as how jobs and career decisions are made. Eightfold offers the industry’s first AI-powered Talent Intelligence Platform to transform how organizations plan, hire, develop and retain a diverse workforce, enabling individuals to transform their careers.To date, Eightfold AI has received more than $410 million in funding and a valuation of over $2B from leading investors to further our mission of finding the right career for everyone in the world. If you are passionate about solving one of the most fundamental challenges of our society - employment, working on hard business problems, and being part of an amazing growth story - Eightfold is the place to be! You may want to refer to the media coverage on TechCrunch and Reuters. Eightfold.ai is led by Ashutosh Garg, a PhD in Machine Learning/IIT Delhi alumni who managed Search and Personalization at Google, and Varun Kacholia- IIT Bombay alumni, who led the News Feed Ranking team at Facebook and developed YouTube Search at Google."
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 2,
-      "title" : "React Developer",
+      "title": "React Developer",
       "company_name": "MMC INFOTECH PVT LTD",
-      "location":"Madhya Pradesh",
-      "salary":"₹28,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Madhya Pradesh",
+      "salary": "₹28,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 3,
-      "title" : "ReactJS Developer",
+      "title": "ReactJS Developer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 4,
-      "title" : "ReactJS Developer",
+      "title": "ReactJS Developer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 5,
-      "title" : "ReactJS Developer",
+      "title": "ReactJS Developer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 6,
-      "title" : "ReactJS Developer",
+      "title": "ReactJS Developer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 7,
-      "title" : "ReactJS Developer",
+      "title": "ReactJS Developer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 8,
-      "title" : "ReactJS Developer",
+      "title": "ReactJS Developer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 9,
-      "title" : "ReactJS Developer",
+      "title": "ReactJS Developer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 10,
-      "title" : "ReactJS Developer",
+      "title": "ReactJS Developer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 11,
-      "title" : "Software Developer- Talent Insights",
+      "title": "Software Developer- Talent Insights",
       "company_name": "Eightfold.AI",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 12,
-      "title" : "Software Developer",
+      "title": "Software Developer",
       "company_name": "Immersive Infotech Pvt. Ltd",
-      "location":"Madhya Pradesh",
-      "salary":"₹28,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Madhya Pradesh",
+      "salary": "₹28,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 13,
-      "title" : "Software Developer",
+      "title": "Software Developer",
       "company_name": "Infotech Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 14,
-      "title" : "Software Developer",
+      "title": "Software Developer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 15,
-      "title" : "Software Developer",
+      "title": "Software Developer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 16,
-      "title" : "Software Developer",
+      "title": "Software Developer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 17,
-      "title" : "Software Developer",
+      "title": "Software Developer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 18,
-      "title" : "Software Developer",
+      "title": "Software Developer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 19,
-      "title" : "Software Developer",
+      "title": "Software Developer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 20,
-      "title" : "Software Developer",
+      "title": "Software Developer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 21,
-      "title" : "Engineer",
+      "title": "Engineer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 22,
-      "title" : "Engineer",
+      "title": "Engineer",
       "company_name": "MMC INFOTECH PVT LTD",
-      "location":"Madhya Pradesh",
-      "salary":"₹28,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Madhya Pradesh",
+      "salary": "₹28,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 23,
-      "title" : "Engineer",
+      "title": "Engineer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 24,
-      "title" : "Engineer",
+      "title": "Engineer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 25,
-      "title" : "Engineer",
+      "title": "Engineer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 26,
-      "title" : "Engineer",
+      "title": "Engineer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 27,
-      "title" : "Engineer",
+      "title": "Engineer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 28,
-      "title" : "Engineer",
+      "title": "Engineer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 29,
-      "title" : "Engineer",
+      "title": "Engineer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
     },
     {
       "id": 30,
-      "title" : "Engineer",
+      "title": "Engineer",
       "company_name": "Swarnim Infosoft Pvt. Ltd",
-      "location":"Saharanpur, Uttar Pradesh",
-      "salary":"₹27,000 - ₹32,000",
-      "job_type":["Part-time", "Fresher", "Remote"],
-      "Job_Description":["Opening For Data Entry" ,"Computer Operator Back Office"],
-      "Schedule" : "Day shift",
-      "Hiring Insights": ["Hiring 10+ candidates for this role","Urgently hiring"],
-      "Job activity" : "Posted today"
+      "location": "Saharanpur, Uttar Pradesh",
+      "salary": "₹27,000 - ₹32,000",
+      "job_type": ["Part-time", "Fresher", "Remote"],
+      "Job_Description": [
+        "Opening For Data Entry",
+        "Computer Operator Back Office"
+      ],
+      "Schedule": "Day shift",
+      "Hiring Insights": [
+        "Hiring 10+ candidates for this role",
+        "Urgently hiring"
+      ],
+      "Job activity": "Posted today"
+    }
+  ],
+  "topPayingJobs": [
+    {
+      "id": 1,
+      "job_title": "Elementary School Teacher",
+      "average_salary": "248237"
+    },
+    {
+      "id": 2,
+      "job_title": "Human Resources Specialist",
+      "average_salary": "272496"
+    },
+    {
+      "id": 3,
+      "job_title": "Accountant",
+      "average_salary": "272237"
+    },
+    {
+      "id": 4,
+      "job_title": "Customer Care Specialist",
+      "average_salary": "224376"
+    },
+    {
+      "id": 5,
+      "job_title": "Office Assistant",
+      "average_salary": "188818"
+    },
+    {
+      "id": 6,
+      "job_title": "Back Office Executive",
+      "average_salary": "379969"
+    },
+    {
+      "id": 7,
+      "job_title": "Data Entry Clerk",
+      "average_salary": "259775"
+    },
+    {
+      "id": 8,
+      "job_title": "Graphic Designer",
+      "average_salary": "360392"
+    },
+    {
+      "id": 9,
+      "job_title": "Fullstack Developer",
+      "average_salary": "850000"
+    },
+    {
+      "id": 10,
+      "job_title": "UI/UX Developer",
+      "average_salary": "75000"
+    }
+  ],
+  "topPayingCompany": [
+    {
+      "id": 1,
+      "company_title": "Capgemini",
+      "review": "8.8k",
+      "review_star": "★★★★☆",
+      "company_logo": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/064eff7aab72cb84fbb7f92b82f6ac4a"
+    },
+    {
+      "id": 2,
+      "company_title": "Tata Consultancy Services (TCS)",
+      "review": "20k",
+      "review_star": "★★★★☆",
+      "company_logo": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/13b693b4dcc055d2344351b4c9a148e9"
+    },
+    {
+      "id": 3,
+      "company_title": "Accenture",
+      "review": "22.1k",
+      "review_star": "★★★★☆",
+      "company_logo": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/fff3cc32d7e908a657ea1da5a4a1732b"
+    },
+    {
+      "id": 4,
+      "company_title": "Cognizant Technology Solutions",
+      "review": "14.9k",
+      "review_star": "★★★★☆",
+      "company_logo": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/ce43c82fedc38bf5739f8c90376c3b98"
+    },
+    {
+      "id": 5,
+      "company_title": "Byju's",
+      "review": "397",
+      "review_star": "★★★☆☆",
+      "company_logo": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/349d1c5aed5c3943dadc47139a21b79d"
+    },
+    {
+      "id": 6,
+      "company_title": "IBM",
+      "review": "31.6k",
+      "review_star": "★★★★☆",
+      "company_logo": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/e33d1816f29251d95814fd99eae809df"
+    },
+    {
+      "id": 7,
+      "company_title": "Amazon.com",
+      "review": "86.6k",
+      "review_star": "★★★★☆",
+      "company_logo": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/3e9d43f5c277de169808abdcaf49ba2c"
+    },
+    {
+      "id": 8,
+      "company_title": "Indigo Airlines",
+      "review": "414",
+      "review_star": "★★★★☆",
+      "company_logo": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/5335229f1b22e90f1e5eafb892704339"
     }
   ],
   "Profile": [
