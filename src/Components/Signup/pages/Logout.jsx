@@ -12,7 +12,7 @@ const Logout = () => {
     if (currentUser) {
       dispatch(logoutInitiate());
     }
-    // localStorage.setItem("isAuth111", false)
+    localStorage.setItem("authKey",false)
     navigate('/')
    
   };

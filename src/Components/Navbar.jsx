@@ -162,7 +162,7 @@ export default function PrimarySearchAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
-        <Toolbar sx={{backgroundColor:'white'}} >
+        <Toolbar sx={{backgroundColor:'white',borderBottom: 1,borderColor:"divider"}} >
           {/* <Box> */}
             <Box>
                <svg
@@ -195,7 +195,7 @@ export default function PrimarySearchAppBar() {
                 </Box>
               </NavLink>
               
-              <NavLink style={{textDecoration:'none'}} to='' >
+              <NavLink style={{textDecoration:'none'}} to='/companyreview' >
                 <Box sx={{color:'black'}}>
                   <Typography variant="body3" component="body3" >
                     Company reviews

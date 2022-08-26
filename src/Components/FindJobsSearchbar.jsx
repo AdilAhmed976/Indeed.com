@@ -25,7 +25,7 @@ export const FindJobsSearchbar = () => {
     }
 
   return (
-   <Box sx={{ padding:'40px' , display:'flex', flexDirection:'column',  justifyContent:'center' , alignItems:'center'}}   >
+   <Box sx={{ padding:'40px' ,borderBottom: 1,borderColor:"divider", display:'flex', flexDirection:'column',  justifyContent:'center' , alignItems:'center'}}   >
     <Box sx={{ width:"70%", padding:'30px' , boxSizing:'border-box' ,  gap:'10px', display:'flex', justifyContent:'space-between' , alignItems:'center'}} >
         <Box > 
             <Autocomplete
@@ -59,7 +59,7 @@ export const FindJobsSearchbar = () => {
             
         </Box>
             <Box id="outlined-start-adornment" >
-                <Button sx={{width:'140px'}}
+                <Button sx={{ padding:'15px 10px' }}
                     variant="contained" 
                     onClick={ ()=>  handleFindJob(title)}
                 >Find jobs</Button>

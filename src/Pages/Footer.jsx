@@ -14,7 +14,7 @@ const Footer = () => {
         <p><a href="">Work at Indeed</a></p>
         <p><a href="">Countries</a></p>
         <p><a href="/about">About</a></p>
-        <p><a href="">Help Center</a></p>
+        <p><a href="/help">Help Center</a></p>
         <p><a href="">Post a job</a></p>
         {/* <link rel="stylesheet" href="" /> */}
 

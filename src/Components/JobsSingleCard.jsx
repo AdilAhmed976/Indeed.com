@@ -13,7 +13,8 @@ export const JobsSingleCard = ({check}) => {
     ])
 
     const singleData = () => {
-        axios.get(`http://localhost:8080/jobdata/${check}`)
+        // https://indeedprojectreact.herokuapp.com/jobdata
+        axios.get(`https://indeedprojectreact.herokuapp.com/jobdata/${check}`)
         .then((r) => setSingleData(r.data))
         .then((e) => (e) )
     }
@@ -26,10 +27,10 @@ export const JobsSingleCard = ({check}) => {
     }, [check])
 
   return (
-    <Box sx={{padding:'8px'}} className={`${check? "" : 'block'}`} >
-        <Box sx={{boxShadow:'gba(0, 0, 0, 0.15) 0px 3px 3px 0px',borderBottom:1}} >
+    <Box sx={{padding:'16px'}} className={`${check? '' : 'block'}`} >
+        <Box sx={{boxShadow:'gba(0, 0, 0, 0.15) 0px 3px 3px 0px',borderBottom:1,borderColor:'divider',paddingBottom:'20px'}} >
             <Box sx={{marginTop:'16px'}} >
-                <Typography variant="h4" component="h4" >
+                <Typography variant="h5" component="h5" fontFamily={"Nato+Sans"} fontWeight="bold" >
                 {single.title}
                 </Typography>
             </Box>
@@ -67,10 +68,20 @@ export const JobsSingleCard = ({check}) => {
             
         </Box>
 
-        <Box className='main' sx={{height:'480px',overflow:'scroll'}} >
-            <Typography variant="body3" component="body3" >
-              {single.Job_Description}
-            </Typography> 
+        <Box className='main' sx={{height:'450px',overflow:'scroll'}} >
+                <Typography variant="body3" component="body3" >
+                {single.Job_Purpose}
+                </Typography>
+            <Box>
+                <Typography variant="body3" component="body3" >
+                {single.Job_Outline}
+                </Typography> 
+            </Box>
+            <Box>
+                <Typography variant="body3" component="body3" >
+                {single.Qualifications_Experience}
+                </Typography> 
+            </Box>
         </Box>
 
     </Box>

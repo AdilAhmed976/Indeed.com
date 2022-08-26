@@ -19,9 +19,9 @@ export const getJobDataFailure = () => {
 }
 
 export const gettingTheJobData = (payload) => (dispatch)=> {
-
     dispatch(getJobDataRequest())
-    axios.get(`http://localhost:8080/jobdata/?q=${payload}`)
+    axios.get(`https://indeedprojectreact.herokuapp.com/jobdata/?q=${payload}`)
     .then((r) => dispatch(getJobDataSuccess(r.data)))
+    .then((r) => (console.log(r.data)))
     .then((e) => dispatch(getJobDataFailure(e)))
 }

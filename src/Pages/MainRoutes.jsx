@@ -10,21 +10,22 @@ import SalaryGuide from "../Components/SalaryGuide/SalaryGuide";
 import ReqAuth from "../Components/Signup/pages/ReqAuth";
 import Logout from "../Components/Signup/pages/Logout";
 import Register from "../Components/Signup/pages/Register";
-import Footer from "./Footer";
 import About from "./About";
+import HelpCenter from "./HelpCenter";
 
 const MainRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />;
       <Route path="/login" element={<Login />} />
-      <Route path="/postjob" element={<PostJob />} />
+
       <Route path="/companyreview" element={<CompanyReview />} />
       <Route path="/salaryguide" element={<SalaryGuide />} />
       <Route path="/logout" element={<Logout />} />
       <Route path="/register" element={<Register />} />
-      <Route path="/postjob" element={<PostJob />} />
       <Route path="/about" element={<About />} />
+      <Route path="/postjob" element={<ReqAuth> <PostJob /></ReqAuth>}/>
+      <Route path="/help" element={<HelpCenter/>} />
       <Route path="*" element={<div>Page Not Found</div>} />
     </Routes>
   );

@@ -1,0 +1,13 @@
+
+.Container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+
+}
+.Container>div{
+    width: 600px;
+    border: 1px solid black;
+    height: 200px;
+    margin: auto;
+}
