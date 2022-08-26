@@ -1,43 +1,54 @@
-import React from 'react'
+import React from "react";
 import {
-    Stack,
-    Box,
-    Typography,
-    Accordion,
-    AccordionSummary,
-    AccordionDetails,
-    Link,
-    TextField,
-    Select,
-    InputLabel,
-    MenuItem,
-    Button,
-    Card,
-  } from "@mui/material";
-  import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-  import HelpIcon from "@mui/icons-material/Help";
+  Stack,
+  Box,
+  Typography,
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
+  Link,
+  TextField,
+  Select,
+  InputLabel,
+  MenuItem,
+  Button,
+  Card,
+} from "@mui/material";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import HelpIcon from "@mui/icons-material/Help";
 
-const CardOne = ({namec , setNamec , toogle}) => {
+const CardOne = ({user , setUser , toogle }) => {
+  console.log(user)
   return (
-         <Box  paddingTop={13} height="auto" width="auto" sx={{
-        paddingX:{
-            xs:"0px",
-            sm:"0px",
-            md:'0px',
-            lg:"200px",
-            xl:"200px"
-        }
-    }}>
+    <Box
+      paddingTop={13}
+      height="auto"
+      width="auto"
+      sx={{
+        paddingX: {
+          xs: "0px",
+          sm: "0px",
+          md: "0px",
+          lg: "200px",
+          xl: "200px",
+        },
+      }}
+    >
       <Box width="auto" height="auto" sx={{ display: "flex" }}>
-        <Stack spacing={2} padding={2}  height="auto" sx={{
-            width: { 
-                xs:"100%",
-                sm:"100%",
-                md:'100%',
-                lg:"55%",
-                xl:"55%"
-            }
-        }}>
+        <Stack
+          spacing={2}
+          padding={2}
+          height="auto"
+          sx={{
+            width: {
+              xs: "100%",
+              sm: "100%",
+              md: "100%",
+              lg: "55%",
+              xl: "55%",
+            },
+          }}
+        >
           <Typography variant="h4" fontWeight="bold">
             Create an employer account
           </Typography>
@@ -87,7 +98,13 @@ const CardOne = ({namec , setNamec , toogle}) => {
                 Your company's name*
               </Typography>
             </InputLabel>
-            <TextField value={namec} onChange={(e) => setNamec(e.target.value)} fullWidth label="Company" />
+            <TextField
+              fullWidth
+              label="Company"
+              name="title"
+              value={user.title}
+              onChange={setUser}
+            />
           </Box>
           <Box>
             <InputLabel id="demo-simple-select-label">
@@ -96,14 +113,13 @@ const CardOne = ({namec , setNamec , toogle}) => {
               </Typography>
             </InputLabel>
             <Select
+              label="age"
               fullWidth
-              labelId="demo-simple-select-label"
-              id="demo-simple-select"
-              label="Age"
+              displayEmpty
             >
-              <MenuItem value={10}>Ten</MenuItem>
-              <MenuItem value={20}>Twenty</MenuItem>
-              <MenuItem value={30}>Thirty</MenuItem>
+              <MenuItem value={100}>100 to 1000</MenuItem>
+              <MenuItem value={1000}>1000 to 5000</MenuItem>
+              <MenuItem value={5000}>more than 5000</MenuItem>
             </Select>
           </Box>
           <Box>
@@ -115,11 +131,10 @@ const CardOne = ({namec , setNamec , toogle}) => {
             <TextField fullWidth label="Name" />
           </Box>
 
-         
           <Box>
             <InputLabel id="demo-simple-select-label">
               <Typography fontWeight="bold" color="black">
-              Your phone number 
+                Your phone number
               </Typography>
             </InputLabel>
             <TextField fullWidth label="Phone Number" />
@@ -128,37 +143,45 @@ const CardOne = ({namec , setNamec , toogle}) => {
           <Box>
             <InputLabel id="demo-simple-select-label">
               <Typography fontWeight="bold" color="black">
-                Your company's number of employees
+                Your company's location
               </Typography>
             </InputLabel>
-            <Select
-              fullWidth
-              labelId="demo-simple-select-label"
-              id="demo-simple-select"
-              label="Age"
-            >
-              <MenuItem value={10}>Ten</MenuItem>
-              <MenuItem value={20}>Twenty</MenuItem>
-              <MenuItem value={30}>Thirty</MenuItem>
-            </Select>
+            <TextField fullWidth label="location" />
           </Box>
           <Box paddingBottom={5} display="flex" justifyContent="flex-end">
-            <Button onClick={() => toogle('inc')} size='large' variant="contained">Save and Next</Button>
+            <Button
+              onClick={() => toogle("inc")}
+              size="large"
+              variant="contained"
+            >
+              Save and Next
+            </Button>
           </Box>
-          </Stack>
-          <Box width="45%" height="600px" sx={{display:{
-            xs:"none",
-            sm:"none",
-            md:'none',
-            lg:"flex",
-            xl:"flex"
-          }
-          ,justifyContent:'center', alignItems:"center"}}>
-              <img src="https://explore.zoom.us/docs/image/Computer-guy.gif" alt="logo" style={{width:"100%",height:"360px"}}/>
-          </Box>
-          </Box>
+        </Stack>
+        <Box
+          width="45%"
+          height="600px"
+          sx={{
+            display: {
+              xs: "none",
+              sm: "none",
+              md: "none",
+              lg: "flex",
+              xl: "flex",
+            },
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <img
+            src="https://explore.zoom.us/docs/image/Computer-guy.gif"
+            alt="logo"
+            style={{ width: "100%", height: "360px" }}
+          />
+        </Box>
+      </Box>
     </Box>
-  )
-}
+  );
+};
 
-export default CardOne
+export default CardOne;
