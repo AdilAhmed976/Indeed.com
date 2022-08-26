@@ -9,7 +9,6 @@ import CompanyReview from "./CompanyReview"
 import ReqAuth from "../Components/Signup/pages/ReqAuth";
 import Logout from "../Components/Signup/pages/Logout";
 import Register from "../Components/Signup/pages/Register";
-import Footer from "./Footer";
 import About from "./About";
 
 

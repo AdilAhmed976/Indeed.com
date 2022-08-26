@@ -33,6 +33,7 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         currentUser: null,
+        isAuth:false
       };
     case types.SET_USER:
       return {

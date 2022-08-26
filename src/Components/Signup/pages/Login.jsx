@@ -24,12 +24,13 @@ const Login = () => {
   const { currentUser } = useSelector((state) => state.user);
   const isAuth = useSelector((state) => state.user.isAuth);
 
+  console.log(isAuth)
   useEffect(() => {
     if (currentUser) {
       // navigate("/");
       navigate(comFrom, { replace: true})
       // console.log(currentUser)
-      // localStorage.setItem("isAuth111",isAuth)
+      // localStorage.setItem("authKey",isAuth)
     }
   }, [currentUser, navigate]);
 
