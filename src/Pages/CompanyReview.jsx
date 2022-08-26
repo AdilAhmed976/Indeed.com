@@ -14,7 +14,7 @@ const CompanyReview = () => {
    <h1 className={styles.topportion_htag}>Find great places to work</h1>
    <div className={styles.topportion_div}>Get access to millions of company reviews</div>
    <div style={{margin:"27px 0 0 200px"}}>
-   <label style={{fontWeight:"bold",marginTop:"60px"}}>Company name or job title</label>
+   <label style={{fontWeight:"bold"}}>Company name or job title</label>
    
    <div >
     <TextField sx={{width:"560px",margin:"6px 0 0 3px" }} size="small" InputProps={{

@@ -195,7 +195,7 @@ export default function PrimarySearchAppBar() {
                 </Box>
               </NavLink>
               
-              <NavLink style={{textDecoration:'none'}} to='' >
+              <NavLink style={{textDecoration:'none'}} to='/companyreview' >
                 <Box sx={{color:'black'}}>
                   <Typography variant="body3" component="body3" >
                     Company reviews
