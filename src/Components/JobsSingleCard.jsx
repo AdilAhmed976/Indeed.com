@@ -74,26 +74,12 @@ export const JobsSingleCard = ({check}) => {
                 </Typography>
             <Box>
                 <Typography variant="body3" component="body3" >
-                Job_Description
+                {single.Job_Outline}
                 </Typography> 
             </Box>
             <Box>
                 <Typography variant="body3" component="body3" >
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid aut nesciunt quod eaque, tempore natus at! Suscipit quisquam atque magni at repudiandae. Qui facere eveniet laudantium itaque blanditiis dolore?
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid aut nesciunt quod eaque, tempore natus at! Suscipit quisquam atque magni at repudiandae. Qui facere eveniet laudantium itaque blanditiis dolore?
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid aut nesciunt quod eaque, tempore natus at! Suscipit quisquam atque magni at repudiandae. Qui facere eveniet laudantium itaque blanditiis dolore?
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid aut nesciunt quod eaque, tempore natus at! Suscipit quisquam atque magni at repudiandae. Qui facere eveniet laudantium itaque blanditiis dolore?
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid aut nesciunt quod eaque, tempore natus at! Suscipit quisquam atque magni at repudiandae. Qui facere eveniet laudantium itaque blanditiis dolore?
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid aut nesciunt quod eaque, tempore natus at! Suscipit quisquam atque magni at repudiandae. Qui facere eveniet laudantium itaque blanditiis dolore?
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid aut nesciunt quod eaque, tempore natus at! Suscipit quisquam atque magni at repudiandae. Qui facere eveniet laudantium itaque blanditiis dolore?
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid aut nesciunt quod eaque, tempore natus at! Suscipit quisquam atque magni at repudiandae. Qui facere eveniet laudantium itaque blanditiis dolore?
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid aut nesciunt quod eaque, tempore natus at! Suscipit quisquam atque magni at repudiandae. Qui facere eveniet laudantium itaque blanditiis dolore?
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid aut nesciunt quod eaque, tempore natus at! Suscipit quisquam atque magni at repudiandae. Qui facere eveniet laudantium itaque blanditiis dolore?
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid aut nesciunt quod eaque, tempore natus at! Suscipit quisquam atque magni at repudiandae. Qui facere eveniet laudantium itaque blanditiis dolore?
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid aut nesciunt quod eaque, tempore natus at! Suscipit quisquam atque magni at repudiandae. Qui facere eveniet laudantium itaque blanditiis dolore?
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid aut nesciunt quod eaque, tempore natus at! Suscipit quisquam atque magni at repudiandae. Qui facere eveniet laudantium itaque blanditiis dolore?
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid aut nesciunt quod eaque, tempore natus at! Suscipit quisquam atque magni at repudiandae. Qui facere eveniet laudantium itaque blanditiis dolore?
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid aut nesciunt quod eaque, tempore natus at! Suscipit quisquam atque magni at repudiandae. Qui facere eveniet laudantium itaque blanditiis dolore?
+                {single.Qualifications_Experience}
                 </Typography> 
             </Box>
         </Box>

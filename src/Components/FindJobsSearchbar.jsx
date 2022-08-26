@@ -59,7 +59,7 @@ export const FindJobsSearchbar = () => {
             
         </Box>
             <Box id="outlined-start-adornment" >
-                <Button sx={{width:'140px'}}
+                <Button sx={{ padding:'15px 10px' }}
                     variant="contained" 
                     onClick={ ()=>  handleFindJob(title)}
                 >Find jobs</Button>
