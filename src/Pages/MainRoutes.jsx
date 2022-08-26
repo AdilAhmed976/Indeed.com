@@ -7,6 +7,7 @@ import ReqAuth from "../Components/Signup/pages/ReqAuth";
 import  Logout  from "../Components/Signup/pages/Logout";
 import Register from "../Components/Signup/pages/Register";
 import About from "./About";
+import HelpCenter from "./HelpCenter";
 
 const MainRoutes = () => {
   return (
@@ -17,6 +18,7 @@ const MainRoutes = () => {
       <Route path="/register" element={<Register />} />
       <Route path="/job/:id" element={''} />
       <Route path="/postjob" element={<ReqAuth> <PostJob /></ReqAuth>}/>
+      <Route path="/help" element={<HelpCenter/>} />
       <Route path="/about" element={<About/>} />
       <Route path="*" element={<div>Page Not Found</div>} />
       
