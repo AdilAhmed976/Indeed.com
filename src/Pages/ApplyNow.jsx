@@ -44,6 +44,7 @@ export const ApplyNow = () => {
         {page === 3  && <ApplyFour toogle={toogle} /> }
       </Box>
       <Box width="30%" height="90%">
+        
       </Box>
     </Box>
   );
