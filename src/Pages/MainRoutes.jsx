@@ -11,6 +11,7 @@ import Logout from "../Components/Signup/pages/Logout";
 import Register from "../Components/Signup/pages/Register";
 import About from "./About";
 import HelpCenter from "./HelpCenter";
+import Term from "./Term";
 
 
 const MainRoutes = () => {
@@ -30,6 +31,7 @@ const MainRoutes = () => {
       <Route path="/help" element={<HelpCenter/>} />
 
       <Route path="/about" element={<About/>} />
+      <Route path="/term" element={<Term/>} />
       <Route path="*" element={<div>Page Not Found</div>} />
     </Routes>
   );

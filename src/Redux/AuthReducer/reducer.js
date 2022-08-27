@@ -7,7 +7,7 @@ const initialState = {
   isAuth:false
   
 };
-localStorage.setItem("loginData", JSON.stringify(initialState.isAuth))
+// localStorage.setItem("loginData", JSON.stringify(initialState.isAuth))
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case types.REGISTER_START:

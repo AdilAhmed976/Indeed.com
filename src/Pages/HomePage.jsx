@@ -1,5 +1,6 @@
 import React from "react";
 import Box from "@mui/material/Box";
+import { useSelector } from "react-redux";
 
 
 
@@ -9,6 +10,11 @@ import Footer from './Footer';
 
 
 export const HomePage = () => {
+
+  console.log(localStorage.getItem('dataUser'))
+
+
+
   return (
     <Box>
 
