@@ -16,7 +16,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
 
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 
 
@@ -61,9 +61,11 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
+
 export default function PrimarySearchAppBar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
+  const navigate = useNavigate()
 
   const isMenuOpen = Boolean(anchorEl);
   const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
@@ -164,7 +166,7 @@ export default function PrimarySearchAppBar() {
       <AppBar position="static">
         <Toolbar sx={{backgroundColor:'white',borderBottom: 1,borderColor:"divider"}} >
           {/* <Box> */}
-            <Box>
+            <Box onClick={()=>{ navigate('/') }} >
                <svg
                 width="95"
                 height="30"
@@ -182,7 +184,7 @@ export default function PrimarySearchAppBar() {
                   ></path>
               </svg>
             </Box>
-            <Box >
+            <Box onClick={()=>{ navigate('/') }} >
               <img height={50} src='https://d3fw5vlhllyvee.cloudfront.net/dist/header/ukraine_support.7ad2b5d444bc427dbc5d.png'/>
             </Box>
             
@@ -195,15 +197,15 @@ export default function PrimarySearchAppBar() {
                 </Box>
               </NavLink>
               
-              <NavLink style={{textDecoration:'none'}} to='' >
-                <Box sx={{color:'black'}}>
+              <NavLink style={{textDecoration:'none'}} to='/companyreview' >
+                <Box >
                   <Typography variant="body3" component="body3" >
                     Company reviews
                   </Typography> 
                 </Box>
               </NavLink>
 
-              <NavLink style={{textDecoration:'none'}} to='' >
+              <NavLink style={{textDecoration:'none'}} to='/salaryguide' >
                 <Box sx={{color:'black'}}>
                   <Typography variant="body3" component="body3" >
                     Salary guide

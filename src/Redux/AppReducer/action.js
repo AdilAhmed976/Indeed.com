@@ -17,6 +17,21 @@ export const getJobDataFailure = () => {
         type:types.GET_DATA_FAILURE
     }
 }
+export const getHomeDataRequest = () => {
+    return {
+        type:types.GET_HOME_LOAD_REQUEST
+    }
+}
+export const getHomeDataSuccess = (payload) => {
+    return {
+        type:types.GET_HOME_LOAD_SUCCESS,payload
+    }
+}
+export const getHomeDataFailure = () => {
+    return {
+        type:types.GET_HOME_LOAD_FAILURE
+    }
+}
 
 export const gettingTheJobData = (payload) => (dispatch)=> {
     dispatch(getJobDataRequest())
@@ -24,4 +39,12 @@ export const gettingTheJobData = (payload) => (dispatch)=> {
     .then((r) => dispatch(getJobDataSuccess(r.data)))
     .then((r) => (console.log(r.data)))
     .then((e) => dispatch(getJobDataFailure(e)))
+}
+
+export const gettingTheHomeLoadData = () => (dispatch)=> {
+    dispatch(getHomeDataRequest())
+    axios.get(`https://indeedprojectreact.herokuapp.com/jobdata`)
+    .then((r) => dispatch(getHomeDataSuccess(r.data)))
+    .then((r) => (console.log(r.data)))
+    .then((e) => dispatch(getHomeDataFailure(e)))
 }
