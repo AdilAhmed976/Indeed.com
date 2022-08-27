@@ -1,17 +1,16 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
-import Login from "../Components/Signup/pages/Login";
-import { HomePage } from "./HomePage";
-import PostJob from "./PostJob";
-
-import CompanyReview from "./CompanyReview";
 import SalaryGuide from "../Components/SalaryGuide/SalaryGuide";
-
+import Register from "../Components/Signup/pages/Register";
 import ReqAuth from "../Components/Signup/pages/ReqAuth";
 import Logout from "../Components/Signup/pages/Logout";
-import Register from "../Components/Signup/pages/Register";
-import About from "./About";
+import Login from "../Components/Signup/pages/Login";
+import { Route, Routes } from "react-router-dom";
+import CompanyReview from "./CompanyReview";
+import { ApplyNow } from "./ApplyNow";
 import HelpCenter from "./HelpCenter";
+import { HomePage } from "./HomePage";
+import PostJob from "./PostJob";
+import About from "./About";
 
 const MainRoutes = () => {
   return (
@@ -26,6 +25,7 @@ const MainRoutes = () => {
       <Route path="/about" element={<About />} />
       <Route path="/postjob" element={<ReqAuth> <PostJob /></ReqAuth>}/>
       <Route path="/help" element={<HelpCenter/>} />
+      <Route path="/ApplyNow" element={<ApplyNow/>} />
       <Route path="*" element={<div>Page Not Found</div>} />
     </Routes>
   );
