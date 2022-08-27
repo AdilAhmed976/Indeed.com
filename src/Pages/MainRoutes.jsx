@@ -12,6 +12,9 @@ import { HomePage } from "./HomePage";
 import PostJob from "./PostJob";
 import About from "./About";
 
+import Term from "./Term";
+
+
 const MainRoutes = () => {
   return (
     <Routes>
@@ -22,9 +25,14 @@ const MainRoutes = () => {
       <Route path="/salaryguide" element={<SalaryGuide />} />
       <Route path="/logout" element={<Logout />} />
       <Route path="/register" element={<Register />} />
-      <Route path="/about" element={<About />} />
+     
       <Route path="/postjob" element={<ReqAuth> <PostJob /></ReqAuth>}/>
       <Route path="/help" element={<HelpCenter/>} />
+
+
+      <Route path="/about" element={<About/>} />
+      <Route path="/term" element={<Term/>} />
+
       <Route path="/ApplyNow" element={<ApplyNow/>} />
       <Route path="*" element={<div>Page Not Found</div>} />
     </Routes>
