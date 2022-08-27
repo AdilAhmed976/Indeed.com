@@ -6,6 +6,7 @@ import TextField  from '@mui/material/TextField';
 import Typography  from '@mui/material/Typography';
 import { useDispatch, useSelector } from 'react-redux';
 import { gettingTheJobData } from '../Redux/AppReducer/action';
+import { Link } from 'react-router-dom';
 
 
 
@@ -67,11 +68,12 @@ export const FindJobsSearchbar = () => {
         </Box>
 
         <Box>
-        <Typography variant="body1" component="h1">
-            Post your resume – It only takes a few seconds
+        <Typography variant="body1" component="h1" textDecoration="none" >
+           <Link to='#' >Post your resume –</Link>  It only takes a few seconds
         </Typography>
-        <Typography variant="body1" component="h1">
-            Employers: Post a job – Your next hire is here
+        <Typography variant="body1" component="h1" textDecoration="none" >
+           <Link to='#'>Employers: Post a job –</Link>  Your next hire is here
+             
         </Typography>
         
         </Box>
