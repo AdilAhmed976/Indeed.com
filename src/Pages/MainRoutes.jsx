@@ -29,7 +29,7 @@ const MainRoutes = () => {
       <Route path="/help" element={<HelpCenter/>} />
       <Route path="/about" element={<About/>} />
       <Route path="/term" element={<Term/>} />
-      <Route path="/ApplyNow" element={<ApplyNow/>} />
+      <Route path="/ApplyNow" element={ <ReqAuth> <ApplyNow/> </ReqAuth>} />
       <Route path="*" element={<div>Page Not Found</div>} />
     </Routes>
   );
