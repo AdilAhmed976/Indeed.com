@@ -19,7 +19,7 @@ console.log(homedata)
     const [title,setTitle] = useState("")
     const [location,setLoaction] = useState("")
     const optionsOne = ["React developer", "Software Developer", "Engineer","ReactJS Developer"]
-    const optionsTwo = ["Madhya Pardesh", "Uttar Pradesh", "Engineer"]
+    const optionsTwo = ["Madhya Pardesh", "Uttar Pradesh"]
     
 
     const handleFindJob = (payload) => {
