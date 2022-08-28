@@ -16,7 +16,7 @@ import {
   import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
   import HelpIcon from "@mui/icons-material/Help";
 
-const CardThree = ({submit , toogle}) => {
+const CardThree = ({submit , user , setUser , toogle}) => {
   return (
          <Box  paddingTop={13} height="auto" width="auto" sx={{
         paddingX:{
@@ -83,63 +83,10 @@ const CardThree = ({submit , toogle}) => {
           <Box>
             <InputLabel id="demo-simple-select-label">
               <Typography fontWeight="bold" color="black">
-                Your company's name*
+                Salary
               </Typography>
             </InputLabel>
-            <TextField fullWidth label="Company" />
-          </Box>
-          <Box>
-            <InputLabel id="demo-simple-select-label">
-              <Typography fontWeight="bold" color="black">
-                Your company's number of employees
-              </Typography>
-            </InputLabel>
-            <Select
-              fullWidth
-              labelId="demo-simple-select-label"
-              id="demo-simple-select"
-              label="Age"
-            >
-              <MenuItem value={10}>Ten</MenuItem>
-              <MenuItem value={20}>Twenty</MenuItem>
-              <MenuItem value={30}>Thirty</MenuItem>
-            </Select>
-          </Box>
-          <Box>
-            <InputLabel fontWeight="bold" id="demo-simple-select-label">
-              <Typography fontWeight="bold" color="black">
-                Your first and last name*
-              </Typography>
-            </InputLabel>
-            <TextField fullWidth label="Name" />
-          </Box>
-
-         
-          <Box>
-            <InputLabel id="demo-simple-select-label">
-              <Typography fontWeight="bold" color="black">
-              Your phone number 
-              </Typography>
-            </InputLabel>
-            <TextField fullWidth label="Phone Number" />
-          </Box>
-
-          <Box>
-            <InputLabel id="demo-simple-select-label">
-              <Typography fontWeight="bold" color="black">
-                Your company's number of employees
-              </Typography>
-            </InputLabel>
-            <Select
-              fullWidth
-              labelId="demo-simple-select-label"
-              id="demo-simple-select"
-              label="Age"
-            >
-              <MenuItem value={10}>Ten</MenuItem>
-              <MenuItem value={20}>Twenty</MenuItem>
-              <MenuItem value={30}>Thirty</MenuItem>
-            </Select>
+            <TextField fullWidth label="salary" name="salary" type="number" value={user.salary} onChange={setUser}  />
           </Box>
           <Box paddingBottom={5} display="flex" justifyContent="space-between">
             <Button  onClick={() => toogle('dec')} variant='outlined' size='large'>Next</Button>

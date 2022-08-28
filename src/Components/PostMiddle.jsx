@@ -13,9 +13,12 @@ const Middle = () => {
       job_type:"",
       Job_Description:"",
       Schedule:"",
+      employee:"",
+      name:"",
+      phone:""
     })
     const handleSubmit = () => {
-      alert("Akhil ")
+      console.log(user)
     }
     const handleChange = (e) => {
       let {name  , value } = e.target
@@ -34,8 +37,8 @@ const Middle = () => {
     return (
     <>
     { page === 0 &&  <CardOne toogle={toogle} user={user} setUser={handleChange}  /> }
-    { page === 1 &&  <CardTwo toogle={toogle}  /> }
-    {page ===2 &&  <CardThree toogle={toogle}  submit={handleSubmit} /> }
+    { page === 1 &&  <CardTwo toogle={toogle} user={user} setUser={handleChange}  /> }
+    {page ===2 &&  <CardThree toogle={toogle} user={user} setUser={handleChange} v submit={handleSubmit} /> }
     </>
     );
   };
