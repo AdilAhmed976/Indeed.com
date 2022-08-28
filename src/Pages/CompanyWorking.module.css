@@ -1,0 +1,26 @@
+.firstcompanyparentdiv{
+    display: flex;
+    align-items: center;
+}
+.ratingone{
+    display: flex;
+}
+.cardcontainerdiv{
+    display:flex;
+    align-items: center;
+    gap:20px;
+    border:1px solid silver;
+    padding: 0  0 0 30px;
+    border-radius: 10px;
+}
+.companycontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+    grid-gap:30px;
+    margin:20px 40px 0 200px
+}
+.companylogo{
+    height:80px;
+    width:80px;
+}

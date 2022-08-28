@@ -58,7 +58,18 @@ const HelpCenter = () => {
         {
             data.map((el) =>{
                return <div key={el.head}>
-                  <h4>{el.head}</h4>
+                <div className={
+                    helpStyle.div1122}>
+                    <img src={el.img} alt={el.img} />
+                </div>
+                <div>
+                    <h4>{el.head}</h4>
+                    <p>{el.que1}</p>
+                    <p>{el.que2}</p>
+                    <h6>Explore more articles
+</h6>
+               </div>
+
                </div>
             })
         }

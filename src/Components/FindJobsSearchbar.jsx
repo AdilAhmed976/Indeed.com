@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import Box from "@mui/material/Box";
 import Autocomplete from "@mui/material/Autocomplete";
 import Button from "@mui/material/Button";
 import TextField  from '@mui/material/TextField';
 import Typography  from '@mui/material/Typography';
 import { useDispatch, useSelector } from 'react-redux';
-import { gettingTheJobData } from '../Redux/AppReducer/action';
+import { gettingTheHomeLoadData, gettingTheJobData } from '../Redux/AppReducer/action';
 import { Link } from 'react-router-dom';
 
 
@@ -14,7 +14,8 @@ export const FindJobsSearchbar = () => {
 
     const dispatch = useDispatch()
     const jobdata = useSelector((store) => store.AppReducer.jobData)
-
+    const homedata = useSelector((store) => store.AppReducer.homeData)
+console.log(homedata)
     const [title,setTitle] = useState("")
     const [location,setLoaction] = useState("")
     const optionsOne = ["React developer", "Software Developer", "Engineer","ReactJS Developer"]
@@ -24,6 +25,10 @@ export const FindJobsSearchbar = () => {
     const handleFindJob = (payload) => {
         dispatch(gettingTheJobData(payload))
     }
+
+    useEffect(() => {
+        dispatch(gettingTheHomeLoadData())
+    },[])
 
   return (
    <Box sx={{ padding:'40px' ,borderBottom: 1,borderColor:"divider", display:'flex', flexDirection:'column',  justifyContent:'center' , alignItems:'center'}}   >

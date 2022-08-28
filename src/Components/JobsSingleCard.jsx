@@ -17,7 +17,6 @@ export const JobsSingleCard = ({check}) => {
     const navigate = useNavigate()
 
     const singleData = () => {
-        // https://indeedprojectreact.herokuapp.com/jobdata
         axios.get(`https://indeedprojectreact.herokuapp.com/jobdata/${check}`)
         .then((r) => setSingleData(r.data))
         .then((e) => (e) )

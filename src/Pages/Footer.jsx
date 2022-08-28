@@ -20,9 +20,15 @@ const Footer = () => {
         <p><a href="">Privacy Center</a></p>
         <p><a href="">Cookies</a></p>
         <p><a href="">Privacy</a></p>
+<<<<<<< HEAD
         <p><a href="">Terms</a></p>
       </Box>
     </Box>
+=======
+        <p><a href="/term">Terms</a></p>
+      </div>
+    </div>
+>>>>>>> fa24df60c362e95c93000fcefc17213cebf83b47
   )
 }
 

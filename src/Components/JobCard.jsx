@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Box from '@mui/material/Box';
 import Typography  from '@mui/material/Typography';
 import JobCardMenu from './JobCardMenu';
-import { Bolt, BusinessCenter, Payments, Send } from '@mui/icons-material';
+import { Bolt, BusinessCenter, Flag, Payments, Send } from '@mui/icons-material';
+
 
 
 export const JobCard = ({item,getid}) => {
+
   
+let jobCard = useRef(null)
+
 
 const truncetText = (text,maxWords) => {
    let textArray = text.split(" ")
@@ -17,9 +21,14 @@ const truncetText = (text,maxWords) => {
    return text
 }
 
+const borderColor = () => { 
+      jobCard.current.style.backgroundColor = 'green';
+      jobCard.current.style.color = '';
+}
+
 
   return (
-    <Box sx={{ border:'0.5px solid gray', borderColor:'divider', backgroundColor:'white', marginBottom:"12px", maxHeight:'304px', overflow:'hidden', textOverflow:'elipsis', padding:'16px',borderRadius:'10px'}} onClick={()=>getid(item.id)} >
+    <Box ref={jobCard} sx={{ border:'0.5px solid gray', borderColor:`divider`,backgroundColor:'white', marginBottom:"12px", maxHeight:'304px', overflow:'hidden', textOverflow:'elipsis', padding:'16px',borderRadius:'10px'}} onClick={()=>{getid(item.id)}} >
 
       <Box sx={{display:'flex', flexDirection:'row', justifyContent:'space-between' }} >
           <Box  >

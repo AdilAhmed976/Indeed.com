@@ -6,6 +6,8 @@ import InputAdornment from '@mui/material/InputAdornment';
 import SearchIcon from '@mui/icons-material/Search';
 import Button from '@mui/material/Button';
 import PopularCompany from './PopularCompany';
+import CompanyWorking from './CompanyWorking';
+import Companyreviewfooter from './Companyreviewfooter';
 
 
 const CompanyReview = () => {
@@ -30,6 +32,14 @@ const CompanyReview = () => {
 
    <div style={{ fontSize: "40px", margin:"40px  0 0 200px",fontWeight:"bold"}}>Popular companies</div>
    <PopularCompany/>
+
+   <div style={{ fontSize: "40px", margin:"40px  0 0 200px",fontWeight:"bold"}}>Compare working at</div>
+
+   <CompanyWorking/>
+   <div style={{margin:"70px 0 0 250px"}}>
+    <img src="https://user-images.githubusercontent.com/95959029/187026741-047cc295-ba87-4e46-93cc-7f55e95b36e6.PNG" alt="" />
+   </div>
+   <Companyreviewfooter/>
         
     </div>
   )
