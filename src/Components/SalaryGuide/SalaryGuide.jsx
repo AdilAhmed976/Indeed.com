@@ -3,6 +3,8 @@ import SalaryGuideTop from "./SalaryGuideTop";
 import TopPayingJobs from "./TopPayingJobs";
 import TopPayingCompany from "./TopPayingCompany";
 import SalaryGuideBottom from "./SalaryGuideBottom";
+import Review from "./Review";
+import Footer from "../../Pages/Footer";
 
 function SalaryGuide(props) {
   return (
@@ -11,6 +13,8 @@ function SalaryGuide(props) {
       <TopPayingJobs />
       <TopPayingCompany />
       <SalaryGuideBottom />
+      <Review />
+      <Footer />
     </>
   );
 }
