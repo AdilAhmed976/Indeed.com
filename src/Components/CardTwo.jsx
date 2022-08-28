@@ -17,7 +17,7 @@ import {
   import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
   import HelpIcon from "@mui/icons-material/Help";
 
-const CardTwo = ({toogle}) => {
+const CardTwo = ({toogle , user , setUser}) => {
   return (
          <Box  paddingTop={13} height="auto" width="auto" sx={{
         paddingX:{
@@ -92,55 +92,48 @@ const CardTwo = ({toogle}) => {
           <Box>
             <InputLabel id="demo-simple-select-label">
               <Typography fontWeight="bold" color="black">
-                Your company's number of employees
+                Your company's job type
               </Typography>
             </InputLabel>
             <Select
               fullWidth
+              label="jobtype"
               labelId="demo-simple-select-label"
               id="demo-simple-select"
-              label="Age"
+              value={user.job_type}
+              onChange={setUser}
+              name="job_type"
             >
-              <MenuItem value={10}>Ten</MenuItem>
-              <MenuItem value={20}>Twenty</MenuItem>
-              <MenuItem value={30}>Thirty</MenuItem>
+              <MenuItem value={"Part Time"}>Part Time</MenuItem>
+              <MenuItem value={"Full Time"}>Full Time</MenuItem>
+              <MenuItem value={"Fresher"}>Fresher</MenuItem>
             </Select>
           </Box>
           <Box>
             <InputLabel fontWeight="bold" id="demo-simple-select-label">
               <Typography fontWeight="bold" color="black">
-                Your first and last name*
+                Job Description 
               </Typography>
             </InputLabel>
-            <TextField fullWidth label="Name" />
+            <TextField fullWidth label="description" name="Job_Description" value={user.Job_Description} onChange={setUser} />
+          </Box>
+          <Box>
+            <InputLabel fontWeight="bold" id="demo-simple-select-label">
+              <Typography fontWeight="bold" color="black">
+                Job title
+              </Typography>
+            </InputLabel>
+            <TextField fullWidth label="title" name="title" value={user.title} onChange={setUser} />
           </Box>
 
          
           <Box>
             <InputLabel id="demo-simple-select-label">
               <Typography fontWeight="bold" color="black">
-              Your phone number 
+              Schedule
               </Typography>
             </InputLabel>
-            <TextField fullWidth label="Phone Number" />
-          </Box>
-
-          <Box>
-            <InputLabel id="demo-simple-select-label">
-              <Typography fontWeight="bold" color="black">
-                Your company's number of employees
-              </Typography>
-            </InputLabel>
-            <Select
-              fullWidth
-              labelId="demo-simple-select-label"
-              id="demo-simple-select"
-              label="Age"
-            >
-              <MenuItem value={10}>Ten</MenuItem>
-              <MenuItem value={20}>Twenty</MenuItem>
-              <MenuItem value={30}>Thirty</MenuItem>
-            </Select>
+            <TextField fullWidth name="Schedule" label="Schedule" value={user.Schedule} onChange={setUser} />
           </Box>
           <Box paddingBottom={5} display="flex" justifyContent="space-between">
             <Button  onClick={() => toogle('dec')} variant='outlined' size='large'>Next</Button>

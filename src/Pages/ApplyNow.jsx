@@ -27,10 +27,30 @@ export const ApplyNow = () => {
         setPage((p) => p-1)
     }
   };
+
+  const [data , setData] = React.useState({
+    firstName:"",
+    lastName:"",
+    email:"",
+    phone:"",
+    education:"",
+    totalExp:"",
+    softwareExp:"",
+    reactExp:"",
+    jobTitle:"",
+    company:""
+  })
+  const handleChange = (e) => {
+    let {name  , value } = e.target
+    setData({...data , [name]:value})
+  }
+  const handleSubmit = () => {
+    console.log(data)
+  }
   return (
     <Box
       width="auto"
-      height="900px"
+      height="900px"aaa
       sx={{
         display: "flex",
         justifyContent: "space-evenly",
@@ -38,12 +58,13 @@ export const ApplyNow = () => {
       }}
     >
       <Box width="35%" height="90%">
-        {page === 0  && <ApplyOne  toogle={toogle} /> }
-        {page === 1  && <ApplyTwo toogle={toogle} /> }
-        {page === 2  && <ApplyThree toogle={toogle} /> }
-        {page === 3  && <ApplyFour toogle={toogle} /> }
+        {page === 0  && <ApplyOne data={data} setData={handleChange}  toogle={toogle} /> }
+        {page === 1  && <ApplyTwo data={data} setData={handleChange}  toogle={toogle} /> }
+        {page === 2  && <ApplyThree data={data} setData={handleChange}  toogle={toogle} /> }
+        {page === 3  && <ApplyFour data={data} setData={handleSubmit}  toogle={toogle} /> }
       </Box>
       <Box width="30%" height="90%">
+        
       </Box>
     </Box>
   );

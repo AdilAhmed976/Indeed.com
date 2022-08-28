@@ -27,7 +27,7 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
   },
 }));
 
-const ApplyTwo = ({ toogle }) => {
+const ApplyTwo = ({ toogle , data ,setData}) => {
   const navigate = useNavigate();
   return (
     <Stack spacing={3} padding={5}>
@@ -52,7 +52,7 @@ const ApplyTwo = ({ toogle }) => {
             What is the highest level of education you have completed?
           </Typography>
         </InputLabel>
-        <TextField fullWidth label="education" name="title" />
+        <TextField fullWidth label="education" name="education" value={data.education} onChange={setData} />
       </Box>
       <Box>
         <InputLabel id="demo-simple-select-label">
@@ -60,7 +60,7 @@ const ApplyTwo = ({ toogle }) => {
             How many years of total work experience do you have?
           </Typography>
         </InputLabel>
-        <TextField fullWidth label="experience" type="number" name="title" />
+        <TextField fullWidth label="experience" type="number" name="totalExp" value={data.totalExp} onChange={setData} />
       </Box>
       <Box>
         <InputLabel id="demo-simple-select-label">
@@ -70,9 +70,11 @@ const ApplyTwo = ({ toogle }) => {
         </InputLabel>
         <TextField
           fullWidth
-          label="software experience"
+          value={data.softwareExp}
+          onChange={setData}
+          label="Software Experience"
           type="number"
-          name="title"
+          name="softwareExp"
         />
       </Box>
       <Box>
@@ -81,7 +83,7 @@ const ApplyTwo = ({ toogle }) => {
             How many years of React experience do you have?
           </Typography>
         </InputLabel>
-        <TextField fullWidth label="React experience" name="title" />
+        <TextField fullWidth label="React experience" name="reactExp" value={data.reactExp} onChange={setData} />
       </Box>
 
       <Box>

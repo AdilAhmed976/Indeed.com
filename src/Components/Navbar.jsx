@@ -18,6 +18,7 @@ import MoreIcon from '@mui/icons-material/MoreVert';
 
 import { Link, useNavigate } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
+import BasicMenu from './Accoun';
 
 
 
@@ -162,7 +163,7 @@ export default function PrimarySearchAppBar() {
   );
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1  }}>
       <AppBar position="static">
         <Toolbar sx={{backgroundColor:'white',borderBottom: 1,borderColor:"divider"}} >
           {/* <Box> */}
@@ -188,7 +189,7 @@ export default function PrimarySearchAppBar() {
               <img height={50} src='https://d3fw5vlhllyvee.cloudfront.net/dist/header/ukraine_support.7ad2b5d444bc427dbc5d.png'/>
             </Box>
             
-            <Box sx={{display:'flex',gap:'20px',marginLeft:'30px'}} >
+            <Box sx={{display:'flex',gap:{xs:"10px" , sm:"10px" , md:"10px" , lg:"20px" , xl:"20px"} , fontSize:{xs:"10px" , sm:"10px" , md:"10px" , lg:"20px" , xl:"20px"} ,marginLeft:'30px'}} >
               <NavLink style={{textDecoration:'none'}} to='/' >
                 <Box sx={{color:'black'}}>
                   <Typography variant="body3" component="body3" >
@@ -232,17 +233,9 @@ export default function PrimarySearchAppBar() {
                 <NotificationsIcon />
               </Badge>
             </IconButton>
-            <IconButton
-              size="large"
-              edge="end"
-              aria-label="account of current user"
-              aria-controls={menuId}
-              aria-haspopup="true"
-              onClick={handleProfileMenuOpen}
-              color="info"
-            >
-              <AccountCircle />
-            </IconButton>
+            <Box>
+              <BasicMenu />
+            </Box>
           </Box>
           {/* <Box sx={{ flexGrow: -1 }} /> */}
 

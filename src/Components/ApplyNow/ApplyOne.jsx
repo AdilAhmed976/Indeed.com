@@ -28,7 +28,7 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 }));
 
 
-const ApplyOne = ({toogle}) => {
+const ApplyOne = ({toogle , data, setData}) => {
     const navigate = useNavigate()
   return (
     <Stack spacing={3} padding={5}>
@@ -48,7 +48,7 @@ const ApplyOne = ({toogle}) => {
           First Name
         </Typography>
       </InputLabel>
-      <TextField fullWidth label="first name" name="first_name" />
+      <TextField fullWidth label="first name" value={data.firstName} onChange={setData} name="firstName" />
     </Box>
     <Box>
       <InputLabel id="demo-simple-select-label">
@@ -56,7 +56,7 @@ const ApplyOne = ({toogle}) => {
           Last name
         </Typography>
       </InputLabel>
-      <TextField fullWidth label="last name" name="last_name" />
+      <TextField fullWidth label="last name" value={data.lastName} onChange={setData} name="lastName" />
     </Box>
     <Box>
       <InputLabel id="demo-simple-select-label">
@@ -64,7 +64,7 @@ const ApplyOne = ({toogle}) => {
           Email
         </Typography>
       </InputLabel>
-      <TextField fullWidth label="email" type="email" name="email" />
+      <TextField fullWidth label="email" type="email" value={data.email} onChange={setData} name="email" />
     </Box>
     <Box>
       <InputLabel id="demo-simple-select-label">
@@ -72,7 +72,7 @@ const ApplyOne = ({toogle}) => {
           Phone Number
         </Typography>
       </InputLabel>
-      <TextField fullWidth label="number" name="number" type="number" />
+      <TextField fullWidth label="number" value={data.phone} onChange={setData}  name="phone" type="number" />
     </Box>
     <Box>
       <Button onClick={() => toogle("inc")} variant="contained">
