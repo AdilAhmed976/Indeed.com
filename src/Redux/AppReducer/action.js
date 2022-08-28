@@ -41,10 +41,15 @@ export const gettingTheJobData = (payload) => (dispatch)=> {
     .then((e) => dispatch(getJobDataFailure(e)))
 }
 
-export const gettingTheHomeLoadData = () => (dispatch)=> {
+export const gettingTheHomeLoadData = () => async (dispatch)=> {
+
+    
+
     dispatch(getHomeDataRequest())
-    axios.get(`https://indeedprojectreact.herokuapp.com/jobdata`)
+    await axios.get(`https://indeedprojectreact.herokuapp.com/jobdata`)
     .then((r) => dispatch(getHomeDataSuccess(r.data)))
     .then((r) => (console.log(r.data)))
     .then((e) => dispatch(getHomeDataFailure(e)))
+
+
 }

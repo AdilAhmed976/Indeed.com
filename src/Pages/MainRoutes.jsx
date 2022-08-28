@@ -11,8 +11,8 @@ import HelpCenter from "./HelpCenter";
 import { HomePage } from "./HomePage";
 import PostJob from "./PostJob";
 import About from "./About";
-
 import Term from "./Term";
+import { ApplyNowSubmit } from "./ApplyNowSubmit";
 
 
 const MainRoutes = () => {
@@ -20,19 +20,15 @@ const MainRoutes = () => {
     <Routes>
       <Route path="/" element={<HomePage />} />;
       <Route path="/login" element={<Login />} />
-
       <Route path="/companyreview" element={<CompanyReview />} />
       <Route path="/salaryguide" element={<SalaryGuide />} />
       <Route path="/logout" element={<Logout />} />
       <Route path="/register" element={<Register />} />
-     
+      <Route path="/applynowsubmit" element={<ApplyNowSubmit/>} />
       <Route path="/postjob" element={<ReqAuth> <PostJob /></ReqAuth>}/>
       <Route path="/help" element={<HelpCenter/>} />
-
-
       <Route path="/about" element={<About/>} />
       <Route path="/term" element={<Term/>} />
-
       <Route path="/ApplyNow" element={<ApplyNow/>} />
       <Route path="*" element={<div>Page Not Found</div>} />
     </Routes>

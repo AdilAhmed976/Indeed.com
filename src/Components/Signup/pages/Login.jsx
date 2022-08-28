@@ -36,6 +36,7 @@ const [data11, setData11] = useState([])
       navigate(comFrom, { replace: true})
       console.log(currentUser._delegate)
       localStorage.setItem("dataUser",currentUser._delegate.displayName)
+      localStorage.setItem("UserImage",currentUser._delegate.photoURL)
     }
   }, [currentUser, navigate]);
 

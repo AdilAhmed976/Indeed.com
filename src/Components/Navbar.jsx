@@ -189,7 +189,7 @@ export default function PrimarySearchAppBar() {
               <img height={50} src='https://d3fw5vlhllyvee.cloudfront.net/dist/header/ukraine_support.7ad2b5d444bc427dbc5d.png'/>
             </Box>
             
-            <Box sx={{display:'flex',gap:{xs:"10px" , sm:"10px" , md:"10px" , lg:"20px" , xl:"20px"} , fontSize:{xs:"10px" , sm:"10px" , md:"10px" , lg:"20px" , xl:"20px"} ,marginLeft:'30px'}} >
+            <Box sx={{display:'flex',gap:{xs:"10px" , sm:"10px" , md:"10px" , lg:"20px" , xl:"20px"} , fontSize:{xs:"10px" , sm:"10px" , md:"10px" , lg:"18px" , xl:"16px"} ,marginLeft:'30px'}} >
               <NavLink style={{textDecoration:'none'}} to='/' >
                 <Box sx={{color:'black'}}>
                   <Typography variant="body3" component="body3" >
@@ -198,7 +198,7 @@ export default function PrimarySearchAppBar() {
                 </Box>
               </NavLink>
               
-              <NavLink style={{textDecoration:'none'}} to='/companyreview' >
+              <NavLink style={{textDecoration:'none',color:'black'}} to='/companyreview' >
                 <Box >
                   <Typography variant="body3" component="body3" >
                     Company reviews
@@ -239,9 +239,14 @@ export default function PrimarySearchAppBar() {
           </Box>
           {/* <Box sx={{ flexGrow: -1 }} /> */}
 
-          <Box sx={{marginLeft:'30px'}} >
-           <Link to="/postjob">Employers / Post Job</Link>
-           </Box>
+          <NavLink style={{textDecoration:'none',marginLeft:'16px'}} to='/postjob' >
+                <Box sx={{color:'black'}}>
+                  <Typography variant="body3" component="body3" >
+                  Employers / Post Job
+                  </Typography> 
+                </Box>
+              </NavLink>
+
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
