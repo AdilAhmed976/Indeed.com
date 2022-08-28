@@ -1,0 +1,39 @@
+.review-container {
+  height: 116px;
+  width: 1280px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  margin-bottom: 50px;
+}
+
+.review-left-wrapper {
+  width: 50%;
+  height: 100%;
+}
+
+.review-right-wrapper {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.review-right-wrapper > div {
+  height: 100%;
+  width: 70px;
+  display: grid;
+  justify-items: center;
+}
+
+.review-right-wrapper p {
+  font-size: 12px;
+  color: #595959;
+}
