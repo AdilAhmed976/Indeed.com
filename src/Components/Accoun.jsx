@@ -14,11 +14,6 @@ export default function BasicMenu() {
   const dispatch = useDispatch();
   const navigate = useNavigate()
 
-  // var name= JSON.parse(localStorage.getItem("dataUser"))
-  // var image= JSON.parse(localStorage.getItem("UserImage"))
-  // console.log(name)
-  // // console.log(image)
-
   var isAuth = useSelector((state) => state.user.isAuth);
   console.log("ACCOUNT",isAuth)
 

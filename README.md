@@ -24,7 +24,20 @@ In this project, we clone a website named “Indeed.com” this is aggregates jo
  * Firebase.
 
 ### Check our website at :
- * GitHub- 
- * Netlify- 
- * Blog- 
- * Video- 
+ * GitHub- https://github.com/AdilAhmed976/curved-knee-365
+ * Vercel- https://indeed-beta.vercel.app/
+
+### Website images :
+
+![image](https://i.imgur.com/MTp1mtV.jpg)
+
+![image](https://i.imgur.com/bTqKR7X.jpg)
+
+![image](https://i.imgur.com/H4tzvak.jpg)
+
+![image](https://i.imgur.com/oyjCrJx.jpg)
+
+![image](https://i.imgur.com/bZ7sTg0.jpg)
+
+![image](https://i.imgur.com/MTsgk3D.jpg)
+
