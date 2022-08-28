@@ -26,7 +26,7 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
     backgroundColor: theme.palette.mode === "light" ? "#1a90ff" : "#308fe8",
   },
 }));
-const ApplyFour = ({toogle}) => {
+const ApplyFour = ({toogle , setData}) => {
     const navigate = useNavigate();
   return ( 
     <Stack spacing={3} padding={5}>
@@ -43,7 +43,7 @@ const ApplyFour = ({toogle}) => {
     <Typography fontWeight="bold" variant="h5">
        Are you confirm to apply this
     </Typography>
-      <Button variant="contained">
+      <Button variant="contained" onClick={setData}>
         Submit
       </Button>
   </Stack>

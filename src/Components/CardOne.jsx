@@ -101,8 +101,8 @@ const CardOne = ({user , setUser , toogle }) => {
             <TextField
               fullWidth
               label="Company"
-              name="title"
-              value={user.title}
+              name="company_name"
+              value={user.company_name}
               onChange={setUser}
             />
           </Box>
@@ -113,9 +113,12 @@ const CardOne = ({user , setUser , toogle }) => {
               </Typography>
             </InputLabel>
             <Select
-              label="age"
+              label="employee"
               fullWidth
               displayEmpty
+              value={user.employee}
+              onChange={setUser}
+              name="employee"
             >
               <MenuItem value={100}>100 to 1000</MenuItem>
               <MenuItem value={1000}>1000 to 5000</MenuItem>
@@ -128,7 +131,7 @@ const CardOne = ({user , setUser , toogle }) => {
                 Your first and last name*
               </Typography>
             </InputLabel>
-            <TextField fullWidth label="Name" />
+            <TextField fullWidth value={user.name} onChange={setUser} name="name" label="Name" />
           </Box>
 
           <Box>
@@ -137,7 +140,7 @@ const CardOne = ({user , setUser , toogle }) => {
                 Your phone number
               </Typography>
             </InputLabel>
-            <TextField fullWidth label="Phone Number" />
+            <TextField fullWidth label="Phone Number" name="phone"  value={user.phone}  onChange={setUser}/>
           </Box>
 
           <Box>
@@ -146,7 +149,7 @@ const CardOne = ({user , setUser , toogle }) => {
                 Your company's location
               </Typography>
             </InputLabel>
-            <TextField fullWidth label="location" />
+            <TextField fullWidth label="location" name="location" value={user.location} onChange={setUser} />
           </Box>
           <Box paddingBottom={5} display="flex" justifyContent="flex-end">
             <Button

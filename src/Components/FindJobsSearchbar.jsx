@@ -32,7 +32,7 @@ console.log(homedata)
 
   return (
    <Box sx={{ padding:'40px' ,borderBottom: 1,borderColor:"divider", display:'flex', flexDirection:'column',  justifyContent:'center' , alignItems:'center'}}   >
-    <Box sx={{ width:"70%", padding:'30px' , boxSizing:'border-box' ,  gap:'10px', display:'flex', justifyContent:'space-between' , alignItems:'center'}} >
+    <Box sx={{ width:{ xs:"100%" , sm:"100%" , md:"70%"}, padding:'30px' , boxSizing:'border-box' ,  gap:'10px', display:{xs:'block' , sm:"block" ,md:"flex"} , justifyContent:'space-between' , alignItems:'center'}} >
         <Box > 
             <Autocomplete
                 value={title}
@@ -40,10 +40,14 @@ console.log(homedata)
                 disablePortal
                 id="combo-box-demo"
                 options={optionsOne}
-                sx={{ width: 400 }}
+                sx={{ width:{
+                    md:300,
+                    lg:400
+                } }}
                 renderInput={(params) => <TextField {...params} 
                 label="What" />}
                 freeSolo
+                
             />
         </Box>
 
@@ -54,7 +58,10 @@ console.log(homedata)
                 disablePortal
                 id="combo-box-demo"
                 options={optionsTwo}
-                sx={{ width: 400 }}
+                sx={{ width:{
+                    md:300,
+                    lg:400
+                } }}
                 renderInput={(params) => <TextField {...params} 
                 label="Where" />}
                 freeSolo
@@ -64,7 +71,7 @@ console.log(homedata)
         <Box>
             
         </Box>
-            <Box id="outlined-start-adornment" >
+            <Box id="outlined-start-adornment" display="flex"  marginTop={{xs:"10px" , sm:"10px" , md:"10px"}} justifyContent={{xs:"center" , sm:"center" , md:"center"} } >
                 <Button sx={{ padding:'15px 10px' }}
                     variant="contained" 
                     onClick={ ()=>  handleFindJob(title)}

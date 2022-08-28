@@ -27,7 +27,7 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
   },
 }));
 
-const ApplyThree = ({toogle}) => {
+const ApplyThree = ({toogle , data , setData}) => {
     const navigate = useNavigate();
   return (
     <Stack spacing={3} padding={5}>
@@ -50,7 +50,7 @@ const ApplyThree = ({toogle}) => {
           Job Title*
         </Typography>
       </InputLabel>
-      <TextField fullWidth label="job" name="title" />
+      <TextField fullWidth label="job" name="jobTitle" value={data.jobTitle} onChange={setData}  />
     </Box>
     <Box>
       <InputLabel id="demo-simple-select-label">
@@ -58,7 +58,7 @@ const ApplyThree = ({toogle}) => {
           Company*
         </Typography>
       </InputLabel>
-      <TextField fullWidth label="Company" name="title" />
+      <TextField fullWidth label="Company" name="company" value={data.company} onChange={setData} />
     </Box>
     <Box>
       <Button onClick={() => toogle("inc")} variant="contained">
