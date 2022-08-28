@@ -10,8 +10,9 @@ import "./Login.css";
 import { LOGIN_SUCCESS} from '../../../Redux/AuthReducer/actionTypes'
 
 const Login = () => {
+  const dispatch = useDispatch();
   const navigate = useNavigate();
-
+const [data11, setData11] = useState([])
   const [state, setState] = useState({
     email: "",
     password: "",
@@ -23,18 +24,24 @@ const Login = () => {
 
   const { currentUser } = useSelector((state) => state.user);
   const isAuth = useSelector((state) => state.user.isAuth);
+  // const {data} = useSelector((state)=> state.user)
+  // console.log(data11)
+  // console.log(currentUser)
 
-  console.log(isAuth)
   useEffect(() => {
     if (currentUser) {
+      setData11(currentUser)
+
       // navigate("/");
       navigate(comFrom, { replace: true})
-      // console.log(currentUser)
-      // localStorage.setItem("authKey",isAuth)
+      console.log(currentUser._delegate)
+      localStorage.setItem("dataUser",currentUser._delegate.displayName)
     }
   }, [currentUser, navigate]);
 
-  const dispatch = useDispatch();
+// console.log(localStorage.getItem('dataUser'+" "+"I am local Storege key"))
+
+ 
 
   const handleGoogleSignIn = () => {
     dispatch(googleSignInInitiate())

@@ -7,6 +7,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import {JobsData} from '../Components/JobsData'
+import { RecentSearches } from './RecentSearches';
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -48,7 +49,7 @@ export default function JobsfeedsPage() {
   };
 
   return (
-    <Box sx={{backgroundColor:'rgb(250,249,248)'}}  >
+    <Box sx={{backgroundColor:'rgb(250,249,249)'}}  >
       <Box sx={{ backgroundColor:'white', borderBottom: 0,borderColor:"divider", height:'90px',  display:'flex', margin:'auto' , justifyContent:'center'}}>
         <Tabs  value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab sx={{fontSize:'24px',height:'90px',textTransform:"capitalize",color:'black'}} label="Job feed" {...a11yProps(0)} />
@@ -58,8 +59,8 @@ export default function JobsfeedsPage() {
       <TabPanel value={value} index={0}>
         {<JobsData/>}
       </TabPanel>
-      <TabPanel value={value} index={1}>
-        Recent Searches
+      <TabPanel  value={value} index={1}>
+        <RecentSearches/>
       </TabPanel>
     </Box>
   );

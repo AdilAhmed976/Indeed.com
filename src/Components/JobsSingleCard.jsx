@@ -5,6 +5,8 @@ import Button  from '@mui/material/Button';
 import Typography  from '@mui/material/Typography';
 import "../Styles/Navbar.css";
 import { FavoriteBorder } from '@mui/icons-material';
+import Divider from '@mui/material/Divider';
+import { useNavigate } from 'react-router-dom';
 
 export const JobsSingleCard = ({check}) => {
 
@@ -12,8 +14,9 @@ export const JobsSingleCard = ({check}) => {
 
     ])
 
+    const navigate = useNavigate()
+
     const singleData = () => {
-        // https://indeedprojectreact.herokuapp.com/jobdata
         axios.get(`https://indeedprojectreact.herokuapp.com/jobdata/${check}`)
         .then((r) => setSingleData(r.data))
         .then((e) => (e) )
@@ -25,6 +28,16 @@ export const JobsSingleCard = ({check}) => {
         
       }
     }, [check])
+
+    // const truncetText = (text,maxWords) => {
+    //     console.log(text)
+    //     let textArray = text.split("")
+     
+    //     if (textArray.length>maxWords) {
+    //          return `${textArray.splice(0,maxWords).join(" ")}...` 
+    //     }
+    //     return text
+    //  }
 
   return (
     <Box sx={{padding:'16px'}} className={`${check? '' : 'block'}`} >
@@ -57,7 +70,7 @@ export const JobsSingleCard = ({check}) => {
 
             <Box sx={{display:'flex',gap:'10px',marginTop:'6px' }} >
                 <Box>
-                    <Button variant="contained">Apply Now</Button>
+                    <Button variant="contained" onClick={()=> { navigate("/ApplyNow") }} >Apply Now</Button>
                 </Box>
                 <Box>
                     <Button variant="outlined"   >
@@ -68,20 +81,66 @@ export const JobsSingleCard = ({check}) => {
             
         </Box>
 
-        <Box className='main' sx={{height:'450px',overflow:'scroll'}} >
-                <Typography variant="body3" component="body3" >
-                {single.Job_Purpose}
-                </Typography>
-            <Box>
-                <Typography variant="body3" component="body3" >
-                {single.Job_Outline}
-                </Typography> 
+        <Box className='main' sx={{height:'450px',overflow:'scroll',paddingTop:"30px",borderBottom:1,borderColor:'divider'}} >
+            
+            <Box sx={{display:"flex",flexDirection:'column',gap:'20px'}} >           
+                <Box>
+                    <Typography variant="body3" component="body3" fontFamily={"Nato+Sans"} fontWeight="500" fontSize="22px" >
+                    Job Description
+                    </Typography>
+                </Box>
+                <Box>
+                    <Typography variant="body3" component="body3" fontFamily={"Nato+Sans"} fontWeight="bold" >
+                    Salary
+                    </Typography>
+                    <br/> 
+                    <Typography variant="body3" component="body3" >
+                    {single.salary}
+                    </Typography> 
+                </Box>
+                <Box>
+                    <Typography variant="body3" component="body3" fontFamily={"Nato+Sans"} fontWeight="bold" >
+                    Job Type
+                    </Typography>
+                    <br/> 
+                    <Typography variant="body3" component="body3" >
+                    {single.job_type}
+                    </Typography> 
+                </Box>
             </Box>
-            <Box>
-                <Typography variant="body3" component="body3" >
-                {single.Qualifications_Experience}
-                </Typography> 
+
+            <Divider orientation="vertical" variant="middle" flexItem />
+
+            <Box sx={{display:"flex",flexDirection:'column',gap:'20px'}} >           
+                <Box>
+                    <Typography variant="body3" component="body3" fontFamily={"Nato+Sans"} fontWeight="500" fontSize="22px" >
+                    Qualification
+                    </Typography>
+                </Box>
+                <Box>
+                    <Typography variant="body3" component="body3" >
+                    {/* { truncetText(single.Qualifications_Experience,20)} */}
+                    { single.Qualifications_Experience}
+                    </Typography> 
+                </Box>
             </Box>
+
+            <Divider orientation="vertical" variant="middle" flexItem />
+
+            <Box sx={{display:"flex",flexDirection:'column',gap:'20px'}} >           
+                <Box>
+                    <Typography variant="body3" component="body3" fontFamily={"Nato+Sans"} fontWeight="500" fontSize="22px" >
+                    Full Job Description
+                    </Typography>
+                </Box>
+                <Box>
+                    <Typography variant="body3" component="body3" >
+                    {/* { truncetText(single.Qualifications_Experience,20)} */}
+                    { single.Qualifications_Experience}
+                    </Typography> 
+                </Box>
+            </Box>
+
         </Box>
 
     </Box>
