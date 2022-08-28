@@ -71,7 +71,7 @@ console.log(homedata)
         <Box>
             
         </Box>
-            <Box id="outlined-start-adornment" display="flex"  marginTop={{xs:"10px" , sm:"10px" , md:"10px"}} justifyContent={{xs:"center" , sm:"center" , md:"center"} } >
+            <Box id="outlined-start-adornment" display="flex"   marginTop={{xs:"10px" , sm:"10px" , md:"10px",lg:"0px",xl:"0px"}} justifyContent={{xs:"center" , sm:"center" , md:"center"} } >
                 <Button sx={{ padding:'15px 10px' }}
                     variant="contained" 
                     onClick={ ()=>  handleFindJob(title)}

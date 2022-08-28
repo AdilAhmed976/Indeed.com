@@ -16,10 +16,16 @@ import ApplyOne from "../Components/ApplyNow/ApplyOne";
 import ApplyTwo from "../Components/ApplyNow/ApplyTwo";
 import ApplyThree from "../Components/ApplyNow/ApplyThree";
 import ApplyFour from "../Components/ApplyNow/ApplyFour";
+import { useNavigate } from "react-router-dom";
+import { ApplyNowSubmit } from "./ApplyNowSubmit";
 
 
 export const ApplyNow = () => {
+
+
   const [page, setPage] = React.useState(0);
+  const navigate = useNavigate()
+
   const toogle = (arg) => {
     if(arg === 'inc'){
         setPage(p => p+1)
@@ -45,7 +51,8 @@ export const ApplyNow = () => {
     setData({...data , [name]:value})
   }
   const handleSubmit = () => {
-    console.log(data)
+    navigate('/applynowsubmit')
+    localStorage.setItem("Applied_Data" , JSON.stringify(data))
   }
   return (
     <Box
