@@ -9,7 +9,7 @@ As a single-topic search engine, it is also an example of vertical search. Indee
 This is a team project, built by us in the Construct Week - Unit 5 at Masai School.
 In this project, we clone a website named “Indeed.com” this is aggregates job listings website from thousands of websites, including job boards, staffing firms, associations, and company career pages. Indeed began allowing job seekers to apply directly to jobs on Indeed's site and offering resume posting and storage & user can be able to search job according to their qualification
 
- Our Team Members ❤️:
+### Our Team Members ❤️:
  * <a href='https://github.com/AdilAhmed976' >Adil Ahmed</a>
  * <a href='https://github.com/ashishdwivedi447' >Ashish Kumar Dwivedi</a>
  * <a href='https://github.com/Akhil2014' >Akhil Khan</a>
