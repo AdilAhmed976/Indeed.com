@@ -34,6 +34,7 @@ export const getHomeDataFailure = () => {
 }
 
 export const gettingTheJobData = (payload) => (dispatch)=> {
+     // Reviewed for: fw16_443 - always use catch block to receive any errors
     dispatch(getJobDataRequest())
     axios.get(`https://indeedprojectreact.herokuapp.com/jobdata/?q=${payload}`)
     .then((r) => dispatch(getJobDataSuccess(r.data)))
@@ -44,7 +45,8 @@ export const gettingTheJobData = (payload) => (dispatch)=> {
 export const gettingTheHomeLoadData = () => async (dispatch)=> {
 
     
-
+    // Reviewed for: fw16_443 - never mix await and then/catch
+    // Always use try/catch with await 
     dispatch(getHomeDataRequest())
     await axios.get(`https://indeedprojectreact.herokuapp.com/jobdata`)
     .then((r) => dispatch(getHomeDataSuccess(r.data)))
