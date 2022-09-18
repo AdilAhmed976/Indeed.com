@@ -4,6 +4,9 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 // import "firebase/auth";
 
+// Reviewed for: fw16_443 - these configurations are different for every env like dev, staging and prod
+// create a config file and keep these scerets there and it should be automatically done based on which 
+// build you are creating
 const firebaseConfig = {
   apiKey: "AIzaSyC9leL35w1FF3VmARfKshAYycdr4bUtzDc",
   authDomain: "primal-context-360408.firebaseapp.com",
