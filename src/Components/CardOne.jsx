@@ -17,6 +17,8 @@ import {
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import HelpIcon from "@mui/icons-material/Help";
 
+// Reviewed for: fw17_1110 - You can create on component for Card
+// instead of having three different component, they are quite similar to each other
 const CardOne = ({user , setUser , toogle }) => {
   console.log(user)
   return (
