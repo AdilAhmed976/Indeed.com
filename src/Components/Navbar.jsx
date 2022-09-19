@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { styled, alpha } from '@mui/material/styles';
+import { styled, alpha } from '@mui/material/styles'; 
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -21,6 +21,8 @@ import { NavLink } from 'react-router-dom';
 import BasicMenu from './Accoun';
 
 
+// Reviewed by: can we keep these methods in UTIL and they can be shared among other components too
+// Util files are generally contains utility functionalities that can be shared
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
