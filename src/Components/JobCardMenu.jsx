@@ -5,6 +5,8 @@ import MenuItem from '@mui/material/MenuItem';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { Block, FavoriteBorder, Flag, HeartBrokenTwoTone } from '@mui/icons-material';
 
+// Reviewed for: fw17_0992 - Menu Item is used multiple times, we can use it once with dynamic config
+// create config object and pass to it to reduce code and increase reusability
 const options = [
   'Save Job',
   'Not intrested',
@@ -13,6 +15,7 @@ const options = [
 
 const ITEM_HEIGHT = 58;
 
+// Reviewed for: fw17_0992 - move constant to constant files
 export default function JobCardMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
