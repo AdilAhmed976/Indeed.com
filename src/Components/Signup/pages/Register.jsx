@@ -35,7 +35,7 @@ const Register = () => {
     setState({ email: "", displayName: "", password: "", passwordConfirm: "" });
   };
   
-  // Reviewed for: fw13_096 - is this displayName that you are setting?
+  // Reviewed for: fw16_443 - is this displayName that you are setting?
   // follow naming convention or a single line comment what is getting updated
   const handleChange = (e) => {
     let { name, value } = e.target;
