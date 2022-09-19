@@ -3,6 +3,8 @@ import React from 'react'
 import footerStyle from './Footer.module.css' 
 
 const Footer = () => {
+  // Reviewed by: use loops/iterators to show same nodes
+  // why to use p tags with a?
   return (
     <Box className={footerStyle.Container}>
       <Box>
