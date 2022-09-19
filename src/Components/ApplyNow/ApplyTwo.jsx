@@ -27,6 +27,11 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
   },
 }));
 
+// Reviewed for: fw17_1110 - Can't we create one Apply form?
+// You can create one component that takes input config and render it
+// based on the class name, you can write the css 
+// This way you don't need to handle four different files with similar functionalities
+
 const ApplyTwo = ({ toogle , data ,setData}) => {
   const navigate = useNavigate();
   return (
