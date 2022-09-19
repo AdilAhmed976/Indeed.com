@@ -7,6 +7,9 @@ function TopPayingJobs(props) {
   const heading = "Browse top paying jobs by industry";
   const [data, setData] = useState([]);
 
+  // Reviewed for: fw13_096 - don't use static URLs
+  // use from env files
+  // keep variable name more descriptive 
   const getData = () => {
     axios
       .get("http://localhost:8080/topPayingJobs")
