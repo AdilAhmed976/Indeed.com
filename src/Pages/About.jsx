@@ -2,6 +2,8 @@ import React from 'react'
 import aboutStyle from './About.module.css'
 
 const About = () => {
+  // Reviewd by: move static content to some constant file
+  // image URLs should be picked from url constant file
   return (
     <div>
         <div className={aboutStyle.Container}>

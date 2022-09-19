@@ -4,6 +4,7 @@ import "./Review.css";
 
 function Review(props) {
   const heading = "Was this page helpful?";
+  // Reviewed for: fw13_096 - don't use svg like this in the view
   return (
     <>
       <div className="review-container">

@@ -22,6 +22,8 @@ function TopPayingCompany(props) {
   useEffect(() => {
     getData();
   }, []);
+  
+  // Reviewed for: fw13_096 - code indentation 
   return (
     <>
       <div className="toppaying-company-heading-wrapper">

@@ -34,6 +34,9 @@ const Register = () => {
     dispatch(registerInitiate(email, password, displayName));
     setState({ email: "", displayName: "", password: "", passwordConfirm: "" });
   };
+  
+  // Reviewed for: fw16_443 - is this displayName that you are setting?
+  // follow naming convention or a single line comment what is getting updated
   const handleChange = (e) => {
     let { name, value } = e.target;
     setState({ ...state, [name]: value });

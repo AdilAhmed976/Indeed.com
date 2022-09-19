@@ -12,6 +12,7 @@ const Logout = () => {
     if (currentUser) {
       dispatch(logoutInitiate());
     }
+    // Reviewed for: fw16_443 - you can remove the key from local storage
     localStorage.setItem("authKey",false)
     navigate('/')
    

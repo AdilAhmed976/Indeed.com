@@ -11,6 +11,8 @@ import Companyreviewfooter from './Companyreviewfooter';
 
 
 const CompanyReview = () => {
+  // Reviewed for: fw14_265 - try to avoid in-line css, image source URL should come from constant file
+  // Static content should come from constant file again
   return (
     <div>
    <h1 className={styles.topportion_htag}>Find great places to work</h1>
