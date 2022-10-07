@@ -34,6 +34,7 @@ export const getHomeDataFailure = () => {
 }
 
 export const gettingTheJobData = (payload) => (dispatch)=> {
+
     dispatch(getJobDataRequest())
     axios.get(`https://indeedprojectreact.herokuapp.com/jobdata/?q=${payload}`)
     .then((r) => dispatch(getJobDataSuccess(r.data)))
@@ -43,7 +44,6 @@ export const gettingTheJobData = (payload) => (dispatch)=> {
 
 export const gettingTheHomeLoadData = () => async (dispatch)=> {
 
-    
 
     dispatch(getHomeDataRequest())
     await axios.get(`https://indeedprojectreact.herokuapp.com/jobdata`)
