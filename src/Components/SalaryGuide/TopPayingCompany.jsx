@@ -9,7 +9,7 @@ function TopPayingCompany(props) {
 
   const getData = () => {
     axios
-      .get("http://localhost:8080/topPayingCompany")
+      .get("https://foremost-bronzed-galley.glitch.me/topPayingCompany")
       .then((r) => {
         setData(r.data);
         console.log("DATA", r.data);
