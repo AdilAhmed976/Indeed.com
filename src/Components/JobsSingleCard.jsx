@@ -81,7 +81,7 @@ export const JobsSingleCard = ({check}) => {
             
         </Box>
 
-        <Box className='main' sx={{height:'450px',overflow:'scroll',paddingTop:"30px",borderBottom:1,borderColor:'divider'}} >
+        <Box className='main' sx={{height:'403px',overflow:'scroll',paddingTop:"30px",borderBottom:1,borderColor:'divider'}} >
             
             <Box sx={{display:"flex",flexDirection:'column',gap:'20px'}} >           
                 <Box>
