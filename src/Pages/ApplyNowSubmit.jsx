@@ -1,48 +1,52 @@
-import { Box } from '@mui/system'
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Button } from "@mui/material";
+import { Box } from "@mui/system";
+import React from "react";
+import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 export const ApplyNowSubmit = () => {
+  let data = JSON.parse(localStorage.getItem("Applied_Data"));
 
-
-    let data = JSON.parse(localStorage.getItem("Applied_Data"))
-
-    const navigate = useNavigate()
-
+  let jobTitle = localStorage.getItem("jobTitle");
+  const navigate = useNavigate();
+  
   return (
-    <Box sx={{margin:'auto',width:'20%'}}>
-        Name
-        <Box>
-            {data.firstName}
-            {data.lastName}
-        </Box>
-        E-mail
-        <Box>
-            {data.email}
-        </Box>
-        E-jobTitle
-        <Box>
-            {data.jobTitle}
-        </Box>
-        phone
-        <Box>
-            {data.phone}
-        </Box>
-        <Box>
-            <button onClick={()=>{ navigate('/') }} > Go to home </button>
-        </Box>
-        
-    </Box>
-  )
-}
+    <Box    
+      sx={{
+        margin: "auto",
+        width: "300px",
+        height: "220px",
+        fontSize: "18px",
+        fontWeight: "500",
+        border: "1px solid black",
+        padding: "16px",
+        paddingTop: "13px",
+        marginTop: "100px",
+      }}
+    >
+      <Box sx={{ display: "flex" }}>
+        Name: {data.firstName}
+        {data.lastName}
+      </Box>
 
-// company: ""
-// education: "1"
-// email: "adilahmedah976@gmail.com"
-// firstName: "Adil"
-// jobTitle: "1"
-// lastName: "Qureshi"
-// phone: "07509144758"
-// reactExp: "1"
-// softwareExp: "1"
-// totalExp: "1"
+      <Box sx={{ display: "flex" }}>E-mail: {data.email}</Box>
+
+      <Box sx={{ display: "flex" }}>Job Title: {jobTitle}</Box>
+
+      <Box sx={{ display: "flex" }}>Phone: {data.phone}</Box>
+      <Box sx={{ display: "flex" }}>
+        <Button
+          onClick={() => {
+            navigate("/");
+          }}
+          variant="contained"
+          component="label"
+        >
+          {" "}
+          Go to home{" "}
+        </Button>
+      </Box>
+    </Box>
+  );
+};
+

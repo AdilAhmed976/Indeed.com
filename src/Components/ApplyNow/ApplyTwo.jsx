@@ -30,7 +30,7 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 const ApplyTwo = ({ toogle , data ,setData}) => {
   const navigate = useNavigate();
   return (
-    <Stack spacing={3} padding={2}>
+    <Stack spacing={3} padding={2} width='530px'>
       <Box>
         <Box sx={{ display: "flex", justifyContent: "space-between" }}>
           <Button onClick={() => toogle("dec")} disableElevation disableRipple>

@@ -54,6 +54,8 @@ export const ApplyNow = () => {
     navigate('/applynowsubmit')
     localStorage.setItem("Applied_Data" , JSON.stringify(data))
   }
+
+  console.log("data" ,data);
   return (
     <Box
       width="auto"
